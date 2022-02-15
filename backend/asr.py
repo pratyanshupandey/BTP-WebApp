@@ -5,4 +5,5 @@ def speech_to_text(audio_filepath: str) -> str:
     :param audio_filepath: Path to the audio file
     :return: The transcript for the given audio file
     """
+    return audio_filepath
     pass
