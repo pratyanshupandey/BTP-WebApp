@@ -9,9 +9,9 @@ from pydantic import BaseModel
 
 app = FastAPI()
 
-# client = MongoClient(MONGO_URI)
-# db = client['BTP_Project']
-# collection = db['queries']
+client = MongoClient(MONGO_URI)
+db = client['BTP_Project']
+collection = db['queries']
 
 origins = [
     "http://localhost.tiangolo.com",
@@ -30,7 +30,6 @@ app.add_middleware(
 )
 
 def db_insert_query(query_text: str, intent_detected: str):
-    return
     return collection.insert_one({
         "query_text": query_text,
         "intent_detected": intent_detected
