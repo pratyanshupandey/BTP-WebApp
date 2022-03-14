@@ -1,11 +1,26 @@
 import './App.css';
-import DemoPage from "./Components/DemoPage";
+import '@fontsource/roboto/300.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';
+import HomePage from "./Components/HomePage";
+import Navbar from "./Components/Navbar";
+import AboutPage from './Components/AboutPage';
+import ModelPage from './Components/ModelPage';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 function App() {
   return (
-    <div className="App">
-      <DemoPage />
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<HomePage />}/>
+          <Route path="/about" element={<AboutPage />}/>
+          <Route path="/model" element={<ModelPage />}/>
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 

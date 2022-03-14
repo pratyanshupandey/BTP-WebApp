@@ -1,4 +1,7 @@
-const axios = require('axios')
+import axios from "axios";
+import Grid from '@mui/material/Grid';
+import KeyboardVoiceIcon from '@mui/icons-material/KeyboardVoice';
+import IconButton from '@mui/material/IconButton';
 
 const WebSpeechASR = ({ setQueryText, setQueryResponse }) => {
     let SpeechRecognition = window.webkitSpeechRecognition || window.SpeechRecognition
@@ -29,16 +32,16 @@ const WebSpeechASR = ({ setQueryText, setQueryResponse }) => {
         }
     }
 
-    // if(!isWebSpeechUsable)
-    //     return (
-    //         <div>Your browser does not support Web Speech API.</div>
-    //     )
-
     return (
-        <div>
-            <h1>Recorder</h1>
-            <button onClick={(e) => startAsr(setQueryText, setQueryResponse)}>Record</button>
-        </div>
+        <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
+            <IconButton
+                aria-label="record"
+                size="large"
+                color="primary"
+                onClick={(e) => startAsr(setQueryText, setQueryResponse)}>
+                <KeyboardVoiceIcon fontSize="inherit" />
+            </IconButton>
+        </Grid>
     )
 }
 

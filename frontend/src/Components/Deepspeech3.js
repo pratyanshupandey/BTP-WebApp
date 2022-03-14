@@ -1,9 +1,13 @@
 import axios from 'axios';
-import {useEffect, useState} from "react";
+import { useEffect, useState } from "react";
 import MediaStreamRecorder from "msr";
-import invokeSaveAsDialog from 'recordrtc'
+import { Grid } from '@mui/material';
+import KeyboardVoiceIcon from '@mui/icons-material/KeyboardVoice';
+import StopCircleOutlinedIcon from '@mui/icons-material/StopCircleOutlined';
+import { Button } from '@mui/material';
+import { Box } from '@mui/system';
 
-const Deepspeech3 = ({setQueryText, setQueryResponse}) => {
+const Deepspeech3 = ({ setQueryText, setQueryResponse }) => {
 
     const [recorder, setRecorder] = useState("")
 
@@ -24,10 +28,10 @@ const Deepspeech3 = ({setQueryText, setQueryResponse}) => {
             //     // document.write('<a href="' + blobURL + '">' + blobURL + '</a>');
             //     console.log("Saving")
             //     invokeSaveAsDialog(blob)
-            //     var file = new File([blob], "recording.wav")
+            //     var file = new File([blob], "recording.wavrea")
             // };
             mediaRecorder.ondataavailable = function (typedArray) {
-                let dataBlob = new Blob([typedArray], {type: 'audio/wav'});
+                let dataBlob = new Blob([typedArray], { type: 'audio/wav' });
                 let file = new File([dataBlob], "recording.wav")
                 const formData = new FormData();
                 formData.append('audio_file', file)
@@ -69,10 +73,24 @@ const Deepspeech3 = ({setQueryText, setQueryResponse}) => {
 
 
     return (
-        <div>
-            <button onClick={startRecording}>Start</button>
-            <button onClick={stopRecording}>Stop</button>
-        </div>)
+        <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
+            <Button
+                variant="contained"
+                color='primary'
+                startIcon={<KeyboardVoiceIcon />}
+                onClick={startRecording}>
+                Start Recording
+            </Button>
+            
+            <Button
+                variant="contained"
+                color='warning'
+                startIcon={<StopCircleOutlinedIcon />}
+                onClick={stopRecording}>
+                Stop Recording
+            </Button>
+        </Grid>
+    )
 }
 
 export default Deepspeech3
