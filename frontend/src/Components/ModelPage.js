@@ -33,7 +33,7 @@ function isChromeEdge() {
 const ModelPage = () => {
 
     const [queryText, setQueryText] = useState("")
-    const [queryResponse, setQueryResponse] = useState("")
+    const [queryResponse, setQueryResponse] = useState("Flight")
 
     let SpeechRecognition = window.webkitSpeechRecognition || window.SpeechRecognition
     let isWebSpeechUsable = isChromeEdge() && (SpeechRecognition !== undefined)
@@ -140,7 +140,7 @@ const ModelPage = () => {
 
                             <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
                                 <Paper elevation={3} sx={{ minHeight: 150 }}>
-                                    Response = {queryResponse}
+                                    {queryResponse}
                                 </Paper>
                             </Grid>
 

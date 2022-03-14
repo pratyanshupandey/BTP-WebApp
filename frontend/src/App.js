@@ -13,15 +13,26 @@ import { purple } from '@mui/material/colors';
 
 const theme = createTheme({
   palette: {
+    type: 'light',
     primary: {
-      // Purple and green play nicely together.
-      main: purple[500],
+      main: '#1a237e',
     },
     secondary: {
-      // This is green.A700 as hex.
-      main: '#11cb5f',
+      main: '#e57373',
+      light: '#b71c1c',
     },
-  },
+    background: {
+      paper: '#dcedc8',
+      default: '#26a69a',
+    },
+    text: {
+      primary: '#311b92',
+      secondary: '#1a237e',
+    },
+    error: {
+      main: '#c62828',
+    },
+  }
 });
 
 function App() {

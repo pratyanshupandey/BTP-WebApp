@@ -5,7 +5,8 @@ import Landing from "../assets/landing.jpg"
 
 const HomePage = () => {
     return (
-        <Box sx={{ flexGrow: 1 }}>
+        <Box sx={{ flexGrow: 1,
+        backgroundColor: 'background.default' }}>
             <Grid container>
                 <Grid item xs={12} sm={12} md={8} lg={12} xl={12}>
                     <div style={{
@@ -59,7 +60,7 @@ const HomePage = () => {
                 <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
                     <Box sx={{
                         flexGrow: 1,
-                        backgroundColor: 'primary.light',
+                        // backgroundColor: 'primary.light',
                         padding: 10
                     }}>
                         <Typography
@@ -74,7 +75,7 @@ const HomePage = () => {
                 <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
                     <Box sx={{
                         flexGrow: 1,
-                        backgroundColor: 'primary.light',
+                        // backgroundColor: 'primary.light',
                         padding: 10
                     }}>
                         <Typography
