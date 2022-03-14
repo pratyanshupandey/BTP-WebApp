@@ -7,10 +7,14 @@ import MenuItem from '@mui/material/MenuItem';
 import FormHelperText from '@mui/material/FormHelperText';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
+import FlightImage from "./flight.jpg"
 
 const ModelPage = () => {
 
     const domains = ["Flight"]
+    const background_images = {
+        Flight: FlightImage
+    }
 
     const [domain, setDomain] = useState(domains[0]);
 
@@ -20,13 +24,12 @@ const ModelPage = () => {
 
 
     return (
-        // <Box sx={{
-        //     flexGrow: 1,
-        //     display: "flex",
-        //     alignItems: 'center',
-        //     bgcolor: "azure"
-        // }}>
-        <div>
+        <div style={{
+            backgroundImage: `url(${background_images[domain]})`,
+            backgroundPosition: 'center',
+            backgroundRepeat: "no-repeat",
+            backgroundSize: 'cover'
+        }}>
             <FormControl sx={{ m: 1, minWidth: 120 }}>
                 <InputLabel id="ddomain-select">Domain</InputLabel>
                 <Select
@@ -36,7 +39,7 @@ const ModelPage = () => {
                     label="Domain"
                     onChange={handleChange}
                 >
-                    {domains.map(domain => <MenuItem value={domain}>{domain}</MenuItem>)}
+                    {domains.map(domain => <MenuItem key={domain} value={domain}>{domain}</MenuItem>)}
                 </Select>
                 <FormHelperText>Select your domain</FormHelperText>
             </FormControl>
