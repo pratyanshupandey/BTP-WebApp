@@ -4,10 +4,8 @@ import Deepspeech3 from "./Deepspeech3";
 import Button from '@mui/material/Button';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
-import Typography from '@mui/material/Typography'
 import axios from "axios";
 import { Input } from "@mui/material";
-
 import TextField from '@mui/material/TextField';
 import { Paper } from "@mui/material";
 
@@ -24,7 +22,7 @@ function isChromeEdge() {
     return isChrome || isEdge
 }
 
-const InputForm = () => {
+const InputForm = ({ domain, setDomain }) => {
     const [queryText, setQueryText] = useState("")
     const [queryResponse, setQueryResponse] = useState("")
 
@@ -51,13 +49,17 @@ const InputForm = () => {
     }
 
 
+    const handleChange = (event) => {
+        setDomain(event.target.value);
+    };
+
     return (
         <Box sx={{
             flexGrow: 1,
             padding: 2,
             margin: 4,
             display: "flex",
-            border: '1px solid grey', 
+            border: '1px solid grey',
             alignItems: 'center',
             bgcolor: "azure"
         }}>

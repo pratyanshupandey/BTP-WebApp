@@ -39,7 +39,7 @@ const WebSpeechASR = ({ setQueryText, setQueryResponse }) => {
                 size="large"
                 color="primary"
                 onClick={(e) => startAsr(setQueryText, setQueryResponse)}>
-                <KeyboardVoiceIcon fontSize="inherit" />
+                <KeyboardVoiceIcon fontSize="large" />
             </IconButton>
         </Grid>
     )
