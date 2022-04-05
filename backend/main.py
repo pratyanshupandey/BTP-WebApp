@@ -1,7 +1,7 @@
 from fastapi import FastAPI, UploadFile, File
 from uuid import uuid4
 from asr import speech_to_text
-from intent_detection import detect_indent
+from intent_detection import IntentDetector
 from pymongo import MongoClient
 from secrets import MONGO_URI
 from fastapi.middleware.cors import CORSMiddleware
@@ -12,6 +12,8 @@ app = FastAPI()
 client = MongoClient(MONGO_URI)
 db = client['BTP_Project']
 collection = db['queries']
+
+nn_model = IntentDetector()
 
 origins = [
     "http://localhost.tiangolo.com",
@@ -45,7 +47,7 @@ async def detect_intent_from_audio(audio_file: UploadFile):
         f.close()
 
     transcript = speech_to_text(file_path)
-    intent = detect_indent(transcript)
+    intent = nn_model.detect_intent(transcript)
     db_insert_query(query_text=transcript, intent_detected=intent)
     return {
         "transcript": transcript,
@@ -58,7 +60,7 @@ class TextQuery(BaseModel):
 
 @app.post("/detect_intent")
 async def detect_intent_from_text(query_text: TextQuery):
-    intent = detect_indent(query_text.query_text)
+    intent = nn_model.detect_intent(query_text.query_text)
     db_insert_query(query_text=query_text.query_text, intent_detected=intent)
     return {
         "intent": intent
