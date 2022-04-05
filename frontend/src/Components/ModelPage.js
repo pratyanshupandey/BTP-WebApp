@@ -5,16 +5,26 @@ import MenuItem from '@mui/material/MenuItem';
 import FormHelperText from '@mui/material/FormHelperText';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
-import FlightImage from "../assets/flight.jpg"
+import FlightImage from "../assets/flight3.jpeg"
 import WebSpeechASR from "./WebSpeechASR";
 import Deepspeech3 from "./Deepspeech3";
 import Button from '@mui/material/Button';
 import Grid from '@mui/material/Grid';
 import axios from "axios";
-import { Input } from "@mui/material";
+import { Input, Typography } from "@mui/material";
 import TextField from '@mui/material/TextField';
 import { Paper } from "@mui/material";
-
+import Carousel from 'react-material-ui-carousel'
+import Slide from "@mui/material/Slide";
+import Fab from '@mui/material/Fab';
+import HelpIcon from '@mui/icons-material/Help';
+import Dialog from '@mui/material/Dialog';
+import { Image } from "mui-image";
+import { Card } from "@mui/material";
+import { Backdrop } from "@mui/material";
+import LayoutHelpImg from "../assets/layout_help.png"
+import WebspeechHelpImg from "../assets/webspeech_help.png"
+import DeepspeechHelpImg from "../assets/deepspeech_help.png"
 
 function isChromeEdge() {
     const isGoogleBot = navigator.userAgent.toLowerCase().indexOf('googlebot') !== -1
@@ -33,7 +43,9 @@ function isChromeEdge() {
 const ModelPage = () => {
 
     const [queryText, setQueryText] = useState("")
-    const [queryResponse, setQueryResponse] = useState("Flight")
+    const [queryResponse, setQueryResponse] = useState("response")
+    const [openHelp, setOpenHelp] = useState(false)
+
 
     let SpeechRecognition = window.webkitSpeechRecognition || window.SpeechRecognition
     let isWebSpeechUsable = isChromeEdge() && (SpeechRecognition !== undefined)
@@ -75,8 +87,63 @@ const ModelPage = () => {
             backgroundImage: `url(${background_images[domain]})`,
             backgroundPosition: 'center',
             backgroundRepeat: "no-repeat",
-            backgroundSize: 'cover'
+            backgroundSize: 'cover',
+            minHeight: 700
         }}>
+
+            <Fab
+                color="secondary"
+                aria-label="edit"
+                onClick={e => setOpenHelp(!openHelp)}
+                sx={{
+                    margin: 0,
+                    top: 'auto',
+                    right: 20,
+                    bottom: 20,
+                    left: 'auto',
+                    position: 'fixed'
+                }}>
+                <HelpIcon />
+            </Fab>
+
+            <Dialog open={openHelp} onClose={e => setOpenHelp(false)}
+                fullwidth={true}
+                maxWidth={false}
+                maxHeight={false}
+                sx={{ maxWidth: 1400, minHeight: 700 }}>
+                <Carousel
+                    sx={{ width: 1032, height: 465 }}
+                    autoPlay={false}
+                    navButtonsAlwaysVisible='true'
+                    animation="slide"
+                    indicators={true}>
+                    <Image
+                        src={LayoutHelpImg}
+                        height='310'
+                        width='688'
+                        // fit="contain"
+                        duration={0}
+                    />
+                    <Image
+                        src={WebspeechHelpImg}
+                        height='310'
+                        width='688'
+                        // fit="contain"
+                        duration={0}
+                    />
+                    <Image
+                        src={DeepspeechHelpImg}
+                        height='310'
+                        width='688'
+                        // fit="contain"
+                        duration={0}
+                    />
+
+                </Carousel>
+
+            </Dialog>
+
+
 
             <Grid container rowSpacing={5}>
                 <Grid item xs={12} sm={12} md={12} lg={2.5} xl={2}></Grid>
@@ -93,7 +160,7 @@ const ModelPage = () => {
 
 
                         <Grid container rowSpacing={5}>
-                            <Grid item xs={6} sm={6} md={8} lg={6} xl={6} alignItems={'left'}>
+                            <Grid item xs={12} sm={12} md={4} lg={4} xl={4} sx={{ display: "flex", justifyContent: "flex-start" }}>
                                 <FormControl sx={{ m: 1, minWidth: 120 }}>
                                     <InputLabel id="domain-select">Domain</InputLabel>
                                     <Select
@@ -105,10 +172,15 @@ const ModelPage = () => {
                                     >
                                         {domains.map(domain => <MenuItem key={domain} value={domain}>{domain}</MenuItem>)}
                                     </Select>
-                                    <FormHelperText>Select your domain</FormHelperText>
+                                    {/* <FormHelperText>Select your domain</FormHelperText> */}
                                 </FormControl>
                             </Grid>
-                            <Grid item xs={6} sm={6} md={8} lg={6} xl={6}>
+                            <Grid item xs={6} sm={6} md={4} lg={4} xl={4} sx={{ display: "flex", alignItems: 'center' }}>
+                                Currently using {!useWebSpeech ? "Deepspeech" : "WebSpeech"}
+
+                            </Grid>
+
+                            <Grid item xs={6} sm={6} md={4} lg={4} xl={4} sx={{ display: "flex", alignItems: 'center', justifyContent: 'right' }}>
                                 <Button variant="contained" onClick={(e) => setUseWebSpeech(!useWebSpeech)}>{useWebSpeech ? "Use Deepspeech" : "Use WebSpeech"}</Button>
                             </Grid>
 
@@ -118,7 +190,7 @@ const ModelPage = () => {
                             <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
 
 
-                                <form onSubmit={onSubmit}>
+                                <form>
                                     <Grid container>
                                         <Grid item xs={12} sm={12} md={12} lg={10} xl={12}>
                                             <TextField
@@ -130,8 +202,9 @@ const ModelPage = () => {
                                                 onChange={(e) => setQueryText(e.target.value)}
                                             />
                                         </Grid>
-                                        <Grid item xs={12} sm={12} md={12} lg={2} xl={12}>
-                                            <Input type="submit" />
+                                        <Grid item xs={12} sm={12} md={12} lg={2} xl={12} sx={{ display: "flex", alignItems: 'center', justifyContent: 'center' }}>
+                                            <Button variant="contained" onClick={onSubmit}>Submit</Button>
+                                            {/* <Input type="submit" backgroundColor='green'/> */}
                                         </Grid>
                                     </Grid>
 
@@ -156,3 +229,5 @@ const ModelPage = () => {
 }
 
 export default ModelPage
+
+// When using MUI Grid API, it is important to notice that when direction=“column”, alignItems affects horizontal alignment and justifyContent affects vertical alignment. When direction=“row” (the default), the opposite is true.

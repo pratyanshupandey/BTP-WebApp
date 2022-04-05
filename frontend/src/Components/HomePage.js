@@ -5,87 +5,39 @@ import Landing from "../assets/landing.jpg"
 
 const HomePage = () => {
     return (
-        <Box sx={{ flexGrow: 1,
-        backgroundColor: 'background.default' }}>
+        <Box sx={{
+            flexGrow: 1,
+            backgroundColor: 'background.default'
+        }}>
             <Grid container>
-                <Grid item xs={12} sm={12} md={8} lg={12} xl={12}>
+                <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
                     <div style={{
                         backgroundImage: `url(${Landing})`,
                         backgroundPosition: 'center',
                         backgroundRepeat: "no-repeat",
-                        backgroundSize: 'cover'
+                        backgroundSize: 'cover',
+                        minHeight: 700
                     }}>
 
                         <Typography
                             variant='h2'
-                            noWrap
-                            padding={20}
-                            component="div">
-                            Intent Detection
+                            component="div"
+                            textAlign={'right'}
+                            paddingTop={35}
+                            paddingRight={5}>
+                            Intent Identifcation
+                        </Typography>
+                        <Typography
+                            variant='h5'
+                            component="div"
+                            textAlign={'right'}
+                            paddingTop={2}
+                            paddingRight={5}>
+                            Recognize the intent behind spoken english sentences.
                         </Typography>
                     </div>
                 </Grid>
-                {/* 
-                <Grid item xs={6} sm={6} md={8} lg={6} xl={6}>
-                    <Box sx={{
-                        flexGrow: 1,
-                        backgroundColor: 'primary.light',
-                        padding: 10,
-                    }}>
-                        <Typography
-                            variant='h2'
-                            noWrap
-                            component="div">
-                            Project Title
-                        </Typography>
 
-                    </Box>
-                </Grid>
-                <Grid item xs={6} sm={6} md={8} lg={6} xl={6}>
-                    <Box sx={{
-                        flexGrow: 1,
-                        backgroundColor: 'primary.light',
-                        padding: 10
-                    }}>
-                        <Typography
-                            variant='h2'
-                            noWrap
-                            component="div">
-                            Image
-                        </Typography>
-                    </Box>
-                </Grid> */}
-
-
-                <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
-                    <Box sx={{
-                        flexGrow: 1,
-                        // backgroundColor: 'primary.light',
-                        padding: 10
-                    }}>
-                        <Typography
-                            variant='h4'
-                            noWrap
-                            component="div">
-                            Project Description
-                        </Typography>
-                    </Box>
-                </Grid>
-
-                <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
-                    <Box sx={{
-                        flexGrow: 1,
-                        // backgroundColor: 'primary.light',
-                        padding: 10
-                    }}>
-                        <Typography
-                            variant='h4'
-                            noWrap
-                            component="div">
-                            How to use the website
-                        </Typography>
-                    </Box>
-                </Grid>
             </Grid>
         </Box>
     )

@@ -8,10 +8,10 @@ import Navbar from "./Components/Navbar";
 import AboutPage from './Components/AboutPage';
 import ModelPage from './Components/ModelPage';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import { createTheme, ThemeProvider } from '@mui/material/styles';
+import { createTheme, ThemeProvider, responsiveFontSizes } from '@mui/material/styles';
 import { purple } from '@mui/material/colors';
 
-const theme = createTheme({
+let theme = createTheme({
   palette: {
     type: 'light',
     primary: {
@@ -34,6 +34,8 @@ const theme = createTheme({
     },
   }
 });
+
+theme = responsiveFontSizes(theme)
 
 function App() {
   return (
