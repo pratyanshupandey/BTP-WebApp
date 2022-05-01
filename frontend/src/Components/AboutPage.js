@@ -4,33 +4,37 @@ import Typography from '@mui/material/Typography'
 import { Avatar } from '@mui/material';
 import { Card, CardActions, CardContent, Button } from '@mui/material';
 import { Container, Stack, Item } from '@mui/material';
-import Person from "../assets/person.jpg"
+import Pratyanshu from "../assets/Pratyanshu.jpeg"
+import ProfChiranjeevi from "../assets/ProfChiranjeevi.jpeg"
+import Sai from "../assets/Sai.jpeg"
+import Snehal from "../assets/Snehal.jpeg"
+import Utkarsh from "../assets/Utkarsh.jpeg"
 
 const contributors = [
   {
-    name: "Abc",
-    role: "ROLE",
-    image: Person
+    name: "Chiranjeevi Yarra",
+    role: "Advisor",
+    image: ProfChiranjeevi
   },
   {
-    name: "Abc",
-    role: "ROLE",
-    image: Person
+    name: "Sai Nanduri",
+    role: "Developer",
+    image: Sai
   },
   {
-    name: "Abc",
-    role: "ROLE",
-    image: Person
+    name: "Snehal Ranjan",
+    role: "Developer",
+    image: Snehal
   },
   {
-    name: "Abc",
-    role: "ROLE",
-    image: Person
+    name: "Pratyanshu Pandey",
+    role: "Developer",
+    image: Pratyanshu
   },
   {
-    name: "Abc",
-    role: "ROLE",
-    image: Person
+    name: "Utkarsh Upadhyay",
+    role: "Developer",
+    image: Utkarsh
   }
 ]
 
