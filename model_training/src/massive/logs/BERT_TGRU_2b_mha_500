@@ -1,0 +1,84 @@
+Using device:  cuda
+Using 10 CPU cores
+Training new model  <class 'model.TorchGRUIntent'>
+Started Training of BERT_TGRU_2b_mha_100
+[1, 100] loss: 2.268509
+[1, 200] loss: 1.543772
+[1, 300] loss: 1.324389
+Epoch: 1 Validation loss: 0.92585 accuracy: 0.73586 accuracy_scn: 0.00000
+Saving Model in checkpoints/BERT_TGRU_2b_mha_100checkpoint_best
+[2, 100] loss: 0.985537
+[2, 200] loss: 0.968446
+[2, 300] loss: 0.946115
+Epoch: 2 Validation loss: 0.92688 accuracy: 0.76636 accuracy_scn: 0.00000
+[3, 100] loss: 0.726881
+[3, 200] loss: 0.814284
+[3, 300] loss: 0.796624
+Epoch: 3 Validation loss: 0.85798 accuracy: 0.78160 accuracy_scn: 0.00000
+Saving Model in checkpoints/BERT_TGRU_2b_mha_100checkpoint_best
+[4, 100] loss: 0.742671
+[4, 200] loss: 0.692863
+[4, 300] loss: 0.716460
+Epoch: 4 Validation loss: 0.80407 accuracy: 0.80030 accuracy_scn: 0.00000
+Saving Model in checkpoints/BERT_TGRU_2b_mha_100checkpoint_best
+[5, 100] loss: 0.584966
+[5, 200] loss: 0.574666
+[5, 300] loss: 0.605928
+Epoch: 5 Validation loss: 0.77334 accuracy: 0.80964 accuracy_scn: 0.00000
+Saving Model in checkpoints/BERT_TGRU_2b_mha_100checkpoint_best
+[6, 100] loss: 0.630084
+[6, 200] loss: 0.604251
+[6, 300] loss: 0.626999
+Epoch: 6 Validation loss: 0.79317 accuracy: 0.80669 accuracy_scn: 0.00000
+[7, 100] loss: 0.476284
+[7, 200] loss: 0.504656
+[7, 300] loss: 0.561249
+Epoch: 7 Validation loss: 0.81622 accuracy: 0.81604 accuracy_scn: 0.00000
+[8, 100] loss: 0.439163
+[8, 200] loss: 0.433604
+[8, 300] loss: 0.508559
+Epoch: 8 Validation loss: 0.74178 accuracy: 0.82046 accuracy_scn: 0.00000
+Saving Model in checkpoints/BERT_TGRU_2b_mha_100checkpoint_best
+[9, 100] loss: 0.363478
+[9, 200] loss: 0.389933
+[9, 300] loss: 0.414343
+Epoch: 9 Validation loss: 0.86318 accuracy: 0.84309 accuracy_scn: 0.00000
+[10, 100] loss: 0.355531
+[10, 200] loss: 0.346921
+[10, 300] loss: 0.393189
+Epoch: 10 Validation loss: 0.81347 accuracy: 0.83473 accuracy_scn: 0.00000
+Saving Model in checkpoints/BERT_TGRU_2b_mha_100checkpoint_9
+[11, 100] loss: 0.338634
+[11, 200] loss: 0.360439
+[11, 300] loss: 0.351092
+Epoch: 11 Validation loss: 0.82470 accuracy: 0.82932 accuracy_scn: 0.00000
+[12, 100] loss: 0.339029
+[12, 200] loss: 0.376125
+[12, 300] loss: 0.356397
+Epoch: 12 Validation loss: 0.82946 accuracy: 0.83473 accuracy_scn: 0.00000
+[13, 100] loss: 0.277253
+[13, 200] loss: 0.309640
+[13, 300] loss: 0.311781
+Epoch: 13 Validation loss: 0.97904 accuracy: 0.83128 accuracy_scn: 0.00000
+Epoch 00013: reducing learning rate of group 0 to 5.0000e-04.
+[14, 100] loss: 0.182987
+[14, 200] loss: 0.171677
+[14, 300] loss: 0.189756
+Epoch: 14 Validation loss: 0.86096 accuracy: 0.85440 accuracy_scn: 0.00000
+[15, 100] loss: 0.108467
+[15, 200] loss: 0.117843
+[15, 300] loss: 0.141166
+Epoch: 15 Validation loss: 0.88480 accuracy: 0.86326 accuracy_scn: 0.00000
+[16, 100] loss: 0.100496
+[16, 200] loss: 0.126607
+[16, 300] loss: 0.113689
+Epoch: 16 Validation loss: 1.03353 accuracy: 0.84604 accuracy_scn: 0.00000
+[17, 100] loss: 0.095689
+[17, 200] loss: 0.107905
+[17, 300] loss: 0.109096
+Epoch: 17 Validation loss: 0.94737 accuracy: 0.84456 accuracy_scn: 0.00000
+Early Stopping the training
+Finished Training
+Saving Model in checkpoints/BERT_TGRU_2b_mha_100final
+Val loss = 0.9473690986633301 	 Val accuracy = 0.84456467628479 accuracy_scn = 0
+Test loss = 0.889565110206604 	 Test accuracy = 0.8517148494720459 accuracy_scn = 0

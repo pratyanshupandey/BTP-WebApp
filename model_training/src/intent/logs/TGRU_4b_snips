@@ -1,0 +1,65 @@
+Using device:  cuda
+Using 20 CPU cores
+Training new model  <class 'model.TorchGRU'>
+Started Training of TGRU_4b_snips
+[1, 100] loss: 0.18923
+[1, 200] loss: 0.04045
+[1, 300] loss: 0.03154
+[1, 400] loss: 0.02630
+Epoch: 1 Validation loss: 0.02952 accuracy: 0.96714
+[2, 100] loss: 0.03014
+[2, 200] loss: 0.02378
+[2, 300] loss: 0.02259
+[2, 400] loss: 0.01819
+Epoch: 2 Validation loss: 0.01184 accuracy: 0.98714
+[3, 100] loss: 0.01359
+[3, 200] loss: 0.01489
+[3, 300] loss: 0.01405
+[3, 400] loss: 0.01174
+Epoch: 3 Validation loss: 0.01576 accuracy: 0.98429
+[4, 100] loss: 0.01330
+[4, 200] loss: 0.01462
+[4, 300] loss: 0.01141
+[4, 400] loss: 0.00926
+Epoch: 4 Validation loss: 0.02362 accuracy: 0.98143
+[5, 100] loss: 0.01415
+[5, 200] loss: 0.00988
+[5, 300] loss: 0.01209
+[5, 400] loss: 0.00812
+Epoch: 5 Validation loss: 0.02033 accuracy: 0.98429
+[6, 100] loss: 0.00708
+[6, 200] loss: 0.00696
+[6, 300] loss: 0.01161
+[6, 400] loss: 0.00859
+Epoch: 6 Validation loss: 0.01767 accuracy: 0.98429
+[7, 100] loss: 0.00790
+[7, 200] loss: 0.00852
+[7, 300] loss: 0.00626
+[7, 400] loss: 0.00913
+Epoch: 7 Validation loss: 0.01975 accuracy: 0.98286
+Epoch 00007: reducing learning rate of group 0 to 5.0000e-04.
+[8, 100] loss: 0.00618
+[8, 200] loss: 0.00255
+[8, 300] loss: 0.00484
+[8, 400] loss: 0.00517
+Epoch: 8 Validation loss: 0.02293 accuracy: 0.98286
+[9, 100] loss: 0.00233
+[9, 200] loss: 0.00375
+[9, 300] loss: 0.00411
+[9, 400] loss: 0.00334
+Epoch: 9 Validation loss: 0.02042 accuracy: 0.98857
+[10, 100] loss: 0.00176
+[10, 200] loss: 0.00208
+[10, 300] loss: 0.00660
+[10, 400] loss: 0.00369
+Epoch: 10 Validation loss: 0.02728 accuracy: 0.98143
+[11, 100] loss: 0.00440
+[11, 200] loss: 0.00274
+[11, 300] loss: 0.00206
+[11, 400] loss: 0.00249
+Epoch: 11 Validation loss: 0.03009 accuracy: 0.98000
+Early Stopping the training
+Finished Training
+Saving Model in checkpoints/TGRU_4b_snipsfinal
+Val loss = 0.030089382082223892 	 Val accuracy = tensor([0.9800], device='cuda:0')
+Test loss = 0.04025238752365112 	 Test accuracy = tensor([0.9700], device='cuda:0')

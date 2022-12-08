@@ -1,0 +1,238 @@
+Using device:  cuda
+Using 10 CPU cores
+Training new model  <class 'model.TorchGRUIntent'>
+Started Training of BERT_ft_contrast_out_128_0.1
+[1, 25] loss: 421.921021
+[1, 50] loss: 376.220886
+[1, 75] loss: 362.263000
+Epoch: 1 Validation loss: 394.23233 accuracy: 0.87014 accuracy_scn: 0.00000
+Epoch: 1 Test loss: 395.36609 accuracy: 0.86449 accuracy_scn: 0.00000
+Saving Model in checkpoints/BERT_ft_contrast_out_128_0.1checkpoint_0
+[2, 25] loss: 308.012299
+[2, 50] loss: 310.578369
+[2, 75] loss: 299.255127
+Epoch: 2 Validation loss: 375.47214 accuracy: 0.87998 accuracy_scn: 0.00000
+Epoch: 2 Test loss: 375.55658 accuracy: 0.88198 accuracy_scn: 0.00000
+Saving Model in checkpoints/BERT_ft_contrast_out_128_0.1checkpoint_1
+[3, 25] loss: 270.292969
+[3, 50] loss: 273.862366
+[3, 75] loss: 267.231598
+Epoch: 3 Validation loss: 372.99939 accuracy: 0.88146 accuracy_scn: 0.00000
+Epoch: 3 Test loss: 372.65329 accuracy: 0.87996 accuracy_scn: 0.00000
+Saving Model in checkpoints/BERT_ft_contrast_out_128_0.1checkpoint_2
+[4, 25] loss: 252.998535
+[4, 50] loss: 249.071960
+[4, 75] loss: 260.223969
+Epoch: 4 Validation loss: 359.95285 accuracy: 0.88441 accuracy_scn: 0.00000
+Epoch: 4 Test loss: 360.34003 accuracy: 0.88332 accuracy_scn: 0.00000
+Saving Model in checkpoints/BERT_ft_contrast_out_128_0.1checkpoint_3
+[5, 25] loss: 231.203537
+[5, 50] loss: 236.678268
+[5, 75] loss: 230.240402
+Epoch: 5 Validation loss: 383.33182 accuracy: 0.87555 accuracy_scn: 0.00000
+Epoch: 5 Test loss: 382.79987 accuracy: 0.87828 accuracy_scn: 0.00000
+Saving Model in checkpoints/BERT_ft_contrast_out_128_0.1checkpoint_4
+[6, 25] loss: 231.959900
+[6, 50] loss: 225.072571
+[6, 75] loss: 232.790817
+Epoch: 6 Validation loss: 368.64017 accuracy: 0.88195 accuracy_scn: 0.00000
+Epoch: 6 Test loss: 371.13144 accuracy: 0.87761 accuracy_scn: 0.00000
+Saving Model in checkpoints/BERT_ft_contrast_out_128_0.1checkpoint_5
+[7, 25] loss: 223.104797
+[7, 50] loss: 223.247284
+[7, 75] loss: 225.836517
+Epoch: 7 Validation loss: 351.43549 accuracy: 0.88539 accuracy_scn: 0.00000
+Epoch: 7 Test loss: 357.67413 accuracy: 0.87290 accuracy_scn: 0.00000
+Saving Model in checkpoints/BERT_ft_contrast_out_128_0.1checkpoint_6
+[8, 25] loss: 204.092529
+[8, 50] loss: 193.667770
+[8, 75] loss: 202.131790
+Epoch: 8 Validation loss: 351.10159 accuracy: 0.88588 accuracy_scn: 0.00000
+Epoch: 8 Test loss: 356.85687 accuracy: 0.87727 accuracy_scn: 0.00000
+Saving Model in checkpoints/BERT_ft_contrast_out_128_0.1checkpoint_7
+[9, 25] loss: 201.896759
+[9, 50] loss: 200.111542
+[9, 75] loss: 205.273407
+Epoch: 9 Validation loss: 352.46796 accuracy: 0.89129 accuracy_scn: 0.00000
+Epoch: 9 Test loss: 355.75977 accuracy: 0.88399 accuracy_scn: 0.00000
+Saving Model in checkpoints/BERT_ft_contrast_out_128_0.1checkpoint_8
+[10, 25] loss: 196.801773
+[10, 50] loss: 190.331955
+[10, 75] loss: 199.218002
+Epoch: 10 Validation loss: 356.64044 accuracy: 0.87703 accuracy_scn: 0.00000
+Epoch: 10 Test loss: 358.25092 accuracy: 0.88164 accuracy_scn: 0.00000
+Saving Model in checkpoints/BERT_ft_contrast_out_128_0.1checkpoint_9
+[11, 25] loss: 206.130936
+[11, 50] loss: 202.095901
+[11, 75] loss: 194.941269
+Epoch: 11 Validation loss: 357.70361 accuracy: 0.88096 accuracy_scn: 0.00000
+Epoch: 11 Test loss: 362.86374 accuracy: 0.87929 accuracy_scn: 0.00000
+Saving Model in checkpoints/BERT_ft_contrast_out_128_0.1checkpoint_10
+[12, 25] loss: 206.410645
+[12, 50] loss: 198.684525
+[12, 75] loss: 201.705154
+Epoch: 12 Validation loss: 355.46219 accuracy: 0.87555 accuracy_scn: 0.00000
+Epoch: 12 Test loss: 354.29968 accuracy: 0.87357 accuracy_scn: 0.00000
+Saving Model in checkpoints/BERT_ft_contrast_out_128_0.1checkpoint_11
+[13, 25] loss: 191.376984
+[13, 50] loss: 196.485413
+[13, 75] loss: 197.510666
+Epoch: 13 Validation loss: 357.54663 accuracy: 0.88342 accuracy_scn: 0.00000
+Epoch: 13 Test loss: 364.65833 accuracy: 0.86987 accuracy_scn: 0.00000
+Epoch 00013: reducing learning rate of group 0 to 5.0000e-05.
+Saving Model in checkpoints/BERT_ft_contrast_out_128_0.1checkpoint_12
+[14, 25] loss: 193.117050
+[14, 50] loss: 189.781738
+[14, 75] loss: 179.115128
+Epoch: 14 Validation loss: 337.91565 accuracy: 0.88588 accuracy_scn: 0.00000
+Epoch: 14 Test loss: 337.94855 accuracy: 0.88030 accuracy_scn: 0.00000
+Saving Model in checkpoints/BERT_ft_contrast_out_128_0.1checkpoint_13
+[15, 25] loss: 163.781067
+[15, 50] loss: 167.206223
+[15, 75] loss: 160.594147
+Epoch: 15 Validation loss: 328.95062 accuracy: 0.89326 accuracy_scn: 0.00000
+Epoch: 15 Test loss: 330.87463 accuracy: 0.88299 accuracy_scn: 0.00000
+Saving Model in checkpoints/BERT_ft_contrast_out_128_0.1checkpoint_14
+[16, 25] loss: 160.229279
+[16, 50] loss: 153.999481
+[16, 75] loss: 154.654160
+Epoch: 16 Validation loss: 325.82156 accuracy: 0.89277 accuracy_scn: 0.00000
+Epoch: 16 Test loss: 327.37604 accuracy: 0.88366 accuracy_scn: 0.00000
+Saving Model in checkpoints/BERT_ft_contrast_out_128_0.1checkpoint_15
+[17, 25] loss: 152.964630
+[17, 50] loss: 153.634613
+[17, 75] loss: 156.469589
+Epoch: 17 Validation loss: 326.26657 accuracy: 0.88982 accuracy_scn: 0.00000
+Epoch: 17 Test loss: 329.33832 accuracy: 0.88097 accuracy_scn: 0.00000
+Saving Model in checkpoints/BERT_ft_contrast_out_128_0.1checkpoint_16
+[18, 25] loss: 154.572922
+[18, 50] loss: 153.179337
+[18, 75] loss: 148.973267
+Epoch: 18 Validation loss: 327.20160 accuracy: 0.89228 accuracy_scn: 0.00000
+Epoch: 18 Test loss: 329.79083 accuracy: 0.88299 accuracy_scn: 0.00000
+Saving Model in checkpoints/BERT_ft_contrast_out_128_0.1checkpoint_17
+[19, 25] loss: 156.208359
+[19, 50] loss: 148.937637
+[19, 75] loss: 146.774368
+Epoch: 19 Validation loss: 325.56537 accuracy: 0.89326 accuracy_scn: 0.00000
+Epoch: 19 Test loss: 327.81702 accuracy: 0.88332 accuracy_scn: 0.00000
+Saving Model in checkpoints/BERT_ft_contrast_out_128_0.1checkpoint_18
+[20, 25] loss: 148.780426
+[20, 50] loss: 146.422043
+[20, 75] loss: 147.747482
+Epoch: 20 Validation loss: 323.33771 accuracy: 0.89375 accuracy_scn: 0.00000
+Epoch: 20 Test loss: 323.72052 accuracy: 0.88332 accuracy_scn: 0.00000
+Saving Model in checkpoints/BERT_ft_contrast_out_128_0.1checkpoint_19
+[21, 25] loss: 144.139435
+[21, 50] loss: 144.766724
+[21, 75] loss: 145.388000
+Epoch: 21 Validation loss: 320.47079 accuracy: 0.89277 accuracy_scn: 0.00000
+Epoch: 21 Test loss: 321.05823 accuracy: 0.88366 accuracy_scn: 0.00000
+Saving Model in checkpoints/BERT_ft_contrast_out_128_0.1checkpoint_20
+[22, 25] loss: 141.112000
+[22, 50] loss: 139.536545
+[22, 75] loss: 142.281830
+Epoch: 22 Validation loss: 317.63937 accuracy: 0.89375 accuracy_scn: 0.00000
+Epoch: 22 Test loss: 318.03442 accuracy: 0.88265 accuracy_scn: 0.00000
+Saving Model in checkpoints/BERT_ft_contrast_out_128_0.1checkpoint_21
+[23, 25] loss: 139.746704
+[23, 50] loss: 137.899689
+[23, 75] loss: 136.085037
+Epoch: 23 Validation loss: 316.69913 accuracy: 0.89375 accuracy_scn: 0.00000
+Epoch: 23 Test loss: 317.93561 accuracy: 0.88198 accuracy_scn: 0.00000
+Saving Model in checkpoints/BERT_ft_contrast_out_128_0.1checkpoint_22
+[24, 25] loss: 136.471771
+[24, 50] loss: 138.877350
+[24, 75] loss: 136.698761
+Epoch: 24 Validation loss: 315.48837 accuracy: 0.89326 accuracy_scn: 0.00000
+Epoch: 24 Test loss: 316.44403 accuracy: 0.88164 accuracy_scn: 0.00000
+Saving Model in checkpoints/BERT_ft_contrast_out_128_0.1checkpoint_23
+[25, 25] loss: 139.067780
+[25, 50] loss: 136.158997
+[25, 75] loss: 137.697220
+Epoch: 25 Validation loss: 313.94022 accuracy: 0.89424 accuracy_scn: 0.00000
+Epoch: 25 Test loss: 314.86432 accuracy: 0.88198 accuracy_scn: 0.00000
+Saving Model in checkpoints/BERT_ft_contrast_out_128_0.1checkpoint_24
+[26, 25] loss: 137.538376
+[26, 50] loss: 132.583832
+[26, 75] loss: 132.167328
+Epoch: 26 Validation loss: 312.58939 accuracy: 0.89326 accuracy_scn: 0.00000
+Epoch: 26 Test loss: 313.69504 accuracy: 0.88231 accuracy_scn: 0.00000
+Saving Model in checkpoints/BERT_ft_contrast_out_128_0.1checkpoint_25
+[27, 25] loss: 134.504715
+[27, 50] loss: 134.956650
+[27, 75] loss: 128.193314
+Epoch: 27 Validation loss: 310.65396 accuracy: 0.89474 accuracy_scn: 0.00000
+Epoch: 27 Test loss: 311.72073 accuracy: 0.88164 accuracy_scn: 0.00000
+Saving Model in checkpoints/BERT_ft_contrast_out_128_0.1checkpoint_26
+[28, 25] loss: 131.690628
+[28, 50] loss: 128.484543
+[28, 75] loss: 129.316193
+Epoch: 28 Validation loss: 308.01392 accuracy: 0.89424 accuracy_scn: 0.00000
+Epoch: 28 Test loss: 309.55450 accuracy: 0.88231 accuracy_scn: 0.00000
+Saving Model in checkpoints/BERT_ft_contrast_out_128_0.1checkpoint_27
+[29, 25] loss: 128.234528
+[29, 50] loss: 130.862656
+[29, 75] loss: 126.802231
+Epoch: 29 Validation loss: 308.37311 accuracy: 0.89080 accuracy_scn: 0.00000
+Epoch: 29 Test loss: 311.13959 accuracy: 0.88030 accuracy_scn: 0.00000
+Saving Model in checkpoints/BERT_ft_contrast_out_128_0.1checkpoint_28
+[30, 25] loss: 132.919922
+[30, 50] loss: 138.614975
+[30, 75] loss: 145.654572
+Epoch: 30 Validation loss: 320.80124 accuracy: 0.88883 accuracy_scn: 0.00000
+Epoch: 30 Test loss: 323.40982 accuracy: 0.88366 accuracy_scn: 0.00000
+Saving Model in checkpoints/BERT_ft_contrast_out_128_0.1checkpoint_29
+[31, 25] loss: 153.491928
+[31, 50] loss: 157.689911
+[31, 75] loss: 175.690582
+Epoch: 31 Validation loss: 336.02875 accuracy: 0.87998 accuracy_scn: 0.00000
+Epoch: 31 Test loss: 334.60489 accuracy: 0.88198 accuracy_scn: 0.00000
+Saving Model in checkpoints/BERT_ft_contrast_out_128_0.1checkpoint_30
+[32, 25] loss: 166.317627
+[32, 50] loss: 163.746124
+[32, 75] loss: 167.378860
+Epoch: 32 Validation loss: 336.66345 accuracy: 0.87703 accuracy_scn: 0.00000
+Epoch: 32 Test loss: 335.18118 accuracy: 0.87693 accuracy_scn: 0.00000
+Saving Model in checkpoints/BERT_ft_contrast_out_128_0.1checkpoint_31
+[33, 25] loss: 158.408447
+[33, 50] loss: 159.108673
+[33, 75] loss: 163.063721
+Epoch: 33 Validation loss: 330.94736 accuracy: 0.88785 accuracy_scn: 0.00000
+Epoch: 33 Test loss: 331.18799 accuracy: 0.88030 accuracy_scn: 0.00000
+Epoch 00033: reducing learning rate of group 0 to 2.5000e-05.
+Saving Model in checkpoints/BERT_ft_contrast_out_128_0.1checkpoint_32
+[34, 25] loss: 157.434692
+[34, 50] loss: 161.679489
+[34, 75] loss: 159.323715
+Epoch: 34 Validation loss: 325.05988 accuracy: 0.89080 accuracy_scn: 0.00000
+Epoch: 34 Test loss: 324.47061 accuracy: 0.88433 accuracy_scn: 0.00000
+Saving Model in checkpoints/BERT_ft_contrast_out_128_0.1checkpoint_33
+[35, 25] loss: 151.820297
+[35, 50] loss: 148.516983
+[35, 75] loss: 149.198227
+Epoch: 35 Validation loss: 323.50323 accuracy: 0.89129 accuracy_scn: 0.00000
+Epoch: 35 Test loss: 321.59293 accuracy: 0.88500 accuracy_scn: 0.00000
+Saving Model in checkpoints/BERT_ft_contrast_out_128_0.1checkpoint_34
+[36, 25] loss: 147.452347
+[36, 50] loss: 145.851120
+[36, 75] loss: 141.298523
+Epoch: 36 Validation loss: 321.63095 accuracy: 0.88982 accuracy_scn: 0.00000
+Epoch: 36 Test loss: 320.57791 accuracy: 0.88837 accuracy_scn: 0.00000
+Saving Model in checkpoints/BERT_ft_contrast_out_128_0.1checkpoint_35
+[37, 25] loss: 144.723557
+[37, 50] loss: 144.176270
+[37, 75] loss: 144.230881
+Epoch: 37 Validation loss: 318.50034 accuracy: 0.88982 accuracy_scn: 0.00000
+Epoch: 37 Test loss: 316.67383 accuracy: 0.88837 accuracy_scn: 0.00000
+Saving Model in checkpoints/BERT_ft_contrast_out_128_0.1checkpoint_36
+Early Stopping the training
+Finished Training
+Saving Model in checkpoints/BERT_ft_contrast_out_128_0.1final
+Val loss = 318.5003356933594 	 Val accuracy = 0.8898179531097412 accuracy_scn = 0
+Test loss = 316.673828125 	 Test accuracy = 0.8883658051490784 accuracy_scn = 0
+
+# medium whisper
+Test loss = 382.85906982421875   Test accuracy = 0.8507061004638672 accuracy_scn = 0
+# small whisper
+Test loss = 406.06866455078125   Test accuracy = 0.8298587203025818 accuracy_scn = 0

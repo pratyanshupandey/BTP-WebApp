@@ -1,0 +1,79 @@
+Using device:  cuda
+Using 8 CPU cores
+Using model from checkpoints/BERT_ft_contrast_out_128_0.1final.pt
+Started Training of BERT_ft_contrast_out_128_0.1
+[1, 25] loss: 1.593569
+[1, 50] loss: 1.619940
+[1, 75] loss: 1.550010
+Epoch: 1 Validation loss: 9.24422 accuracy: 0.87162 accuracy_scn: 0.00000
+Epoch: 1 Test loss: 8.93748 accuracy: 0.87391 accuracy_scn: 0.00000
+Saving Model in checkpoints/BERT_ft_contrast_out_128_0.1checkpoint_best
+[2, 25] loss: 1.520793
+[2, 50] loss: 1.526589
+[2, 75] loss: 1.541769
+Epoch: 2 Validation loss: 8.19122 accuracy: 0.87900 accuracy_scn: 0.00000
+Epoch: 2 Test loss: 8.14478 accuracy: 0.87290 accuracy_scn: 0.00000
+Saving Model in checkpoints/BERT_ft_contrast_out_128_0.1checkpoint_best
+[3, 25] loss: 1.501431
+[3, 50] loss: 1.549270
+[3, 75] loss: 1.525957
+Epoch: 3 Validation loss: 8.35126 accuracy: 0.88342 accuracy_scn: 0.00000
+Epoch: 3 Test loss: 8.16871 accuracy: 0.87929 accuracy_scn: 0.00000
+[4, 25] loss: 1.493175
+[4, 50] loss: 1.490182
+[4, 75] loss: 1.479229
+Epoch: 4 Validation loss: 7.79743 accuracy: 0.88047 accuracy_scn: 0.00000
+Epoch: 4 Test loss: 7.60187 accuracy: 0.87861 accuracy_scn: 0.00000
+Saving Model in checkpoints/BERT_ft_contrast_out_128_0.1checkpoint_best
+[5, 25] loss: 1.475273
+[5, 50] loss: 1.445517
+[5, 75] loss: 1.479444
+Epoch: 5 Validation loss: 8.02624 accuracy: 0.88195 accuracy_scn: 0.00000
+Epoch: 5 Test loss: 7.91588 accuracy: 0.87727 accuracy_scn: 0.00000
+[6, 25] loss: 1.484988
+[6, 50] loss: 1.460703
+[6, 75] loss: 1.471134
+Epoch: 6 Validation loss: 8.47358 accuracy: 0.88244 accuracy_scn: 0.00000
+Epoch: 6 Test loss: 8.26721 accuracy: 0.87592 accuracy_scn: 0.00000
+[7, 25] loss: 1.403018
+[7, 50] loss: 1.425774
+[7, 75] loss: 1.500537
+Epoch: 7 Validation loss: 8.31082 accuracy: 0.88047 accuracy_scn: 0.00000
+Epoch: 7 Test loss: 8.08348 accuracy: 0.87492 accuracy_scn: 0.00000
+[8, 25] loss: 1.401324
+[8, 50] loss: 1.398603
+[8, 75] loss: 1.410784
+Epoch: 8 Validation loss: 9.00622 accuracy: 0.87654 accuracy_scn: 0.00000
+Epoch: 8 Test loss: 8.71961 accuracy: 0.87592 accuracy_scn: 0.00000
+[9, 25] loss: 1.392415
+[9, 50] loss: 1.393088
+[9, 75] loss: 1.438988
+Epoch: 9 Validation loss: 8.81433 accuracy: 0.87949 accuracy_scn: 0.00000
+Epoch: 9 Test loss: 8.61429 accuracy: 0.87962 accuracy_scn: 0.00000
+Epoch 00009: reducing learning rate of group 0 to 2.0000e-05.
+[10, 25] loss: 1.373718
+[10, 50] loss: 1.389482
+[10, 75] loss: 1.383628
+Epoch: 10 Validation loss: 9.19930 accuracy: 0.88047 accuracy_scn: 0.00000
+Epoch: 10 Test loss: 9.01916 accuracy: 0.87996 accuracy_scn: 0.00000
+Saving Model in checkpoints/BERT_ft_contrast_out_128_0.1checkpoint_9
+[11, 25] loss: 1.384533
+[11, 50] loss: 1.382646
+[11, 75] loss: 1.358428
+Epoch: 11 Validation loss: 9.32216 accuracy: 0.88244 accuracy_scn: 0.00000
+Epoch: 11 Test loss: 9.15609 accuracy: 0.87626 accuracy_scn: 0.00000
+[12, 25] loss: 1.370096
+[12, 50] loss: 1.381123
+[12, 75] loss: 1.362448
+Epoch: 12 Validation loss: 9.24726 accuracy: 0.88293 accuracy_scn: 0.00000
+Epoch: 12 Test loss: 9.06523 accuracy: 0.87761 accuracy_scn: 0.00000
+[13, 25] loss: 1.363307
+[13, 50] loss: 1.383624
+[13, 75] loss: 1.350381
+Epoch: 13 Validation loss: 9.75808 accuracy: 0.88392 accuracy_scn: 0.00000
+Epoch: 13 Test loss: 9.55289 accuracy: 0.87761 accuracy_scn: 0.00000
+Early Stopping the training
+Finished Training
+Saving Model in checkpoints/BERT_ft_contrast_out_128_0.1final
+Val loss = 9.758078575134277 	 Val accuracy = 0.883915364742279 accuracy_scn = 0
+Test loss = 9.552892684936523 	 Test accuracy = 0.8776059150695801 accuracy_scn = 0

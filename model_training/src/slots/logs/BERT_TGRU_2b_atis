@@ -1,0 +1,228 @@
+Using device:  cuda
+Using 15 CPU cores
+Training new model  <class 'model.TorchGRU'>
+Started Training of BERT_TGRU_2b_atis
+[1, 100] loss: 0.702950
+Epoch: 1 Validation loss: 1.13283 accuracy: 0.96671
+Saving Model in checkpoints/BERT_TGRU_2b_atischeckpoint_best
+[2, 100] loss: 0.122136
+Epoch: 2 Validation loss: 0.45495 accuracy: 0.98758
+Saving Model in checkpoints/BERT_TGRU_2b_atischeckpoint_best
+[3, 100] loss: 0.064255
+Epoch: 3 Validation loss: 0.25754 accuracy: 0.99204
+Saving Model in checkpoints/BERT_TGRU_2b_atischeckpoint_best
+[4, 100] loss: 0.039704
+Epoch: 4 Validation loss: 0.17310 accuracy: 0.99509
+Saving Model in checkpoints/BERT_TGRU_2b_atischeckpoint_best
+[5, 100] loss: 0.027108
+Epoch: 5 Validation loss: 0.09095 accuracy: 0.99776
+Saving Model in checkpoints/BERT_TGRU_2b_atischeckpoint_best
+[6, 100] loss: 0.020193
+Epoch: 6 Validation loss: 0.09073 accuracy: 0.99733
+Saving Model in checkpoints/BERT_TGRU_2b_atischeckpoint_best
+[7, 100] loss: 0.014336
+Epoch: 7 Validation loss: 0.04821 accuracy: 0.99851
+Saving Model in checkpoints/BERT_TGRU_2b_atischeckpoint_best
+[8, 100] loss: 0.010582
+Epoch: 8 Validation loss: 0.04195 accuracy: 0.99895
+Saving Model in checkpoints/BERT_TGRU_2b_atischeckpoint_best
+[9, 100] loss: 0.011777
+Epoch: 9 Validation loss: 0.03355 accuracy: 0.99909
+Saving Model in checkpoints/BERT_TGRU_2b_atischeckpoint_best
+[10, 100] loss: 0.007968
+Epoch: 10 Validation loss: 0.03344 accuracy: 0.99907
+Saving Model in checkpoints/BERT_TGRU_2b_atischeckpoint_best
+[11, 100] loss: 0.013671
+Epoch: 11 Validation loss: 0.02375 accuracy: 0.99925
+Saving Model in checkpoints/BERT_TGRU_2b_atischeckpoint_best
+[12, 100] loss: 0.007488
+Epoch: 12 Validation loss: 0.02392 accuracy: 0.99937
+[13, 100] loss: 0.007158
+Epoch: 13 Validation loss: 0.02962 accuracy: 0.99901
+[14, 100] loss: 0.007324
+Epoch: 14 Validation loss: 0.01758 accuracy: 0.99939
+Saving Model in checkpoints/BERT_TGRU_2b_atischeckpoint_best
+[15, 100] loss: 0.006529
+Epoch: 15 Validation loss: 0.02061 accuracy: 0.99927
+[16, 100] loss: 0.008987
+Epoch: 16 Validation loss: 0.02892 accuracy: 0.99921
+[17, 100] loss: 0.008920
+Epoch: 17 Validation loss: 0.03071 accuracy: 0.99901
+[18, 100] loss: 0.007080
+Epoch: 18 Validation loss: 0.03953 accuracy: 0.99857
+[19, 100] loss: 0.004329
+Epoch: 19 Validation loss: 0.00890 accuracy: 0.99968
+Saving Model in checkpoints/BERT_TGRU_2b_atischeckpoint_best
+[20, 100] loss: 0.003642
+Epoch: 20 Validation loss: 0.05911 accuracy: 0.99877
+Saving Model in checkpoints/BERT_TGRU_2b_atischeckpoint_19
+[21, 100] loss: 0.006858
+Epoch: 21 Validation loss: 0.03668 accuracy: 0.99891
+[22, 100] loss: 0.007084
+Epoch: 22 Validation loss: 0.03362 accuracy: 0.99893
+[23, 100] loss: 0.004674
+Epoch: 23 Validation loss: 0.00940 accuracy: 0.99980
+[24, 100] loss: 0.007195
+Epoch: 24 Validation loss: 0.01509 accuracy: 0.99941
+Epoch 00024: reducing learning rate of group 0 to 5.0000e-04.
+[25, 100] loss: 0.002006
+Epoch: 25 Validation loss: 0.00219 accuracy: 0.99992
+Saving Model in checkpoints/BERT_TGRU_2b_atischeckpoint_best
+[26, 100] loss: 0.000963
+Epoch: 26 Validation loss: 0.00153 accuracy: 0.99992
+Saving Model in checkpoints/BERT_TGRU_2b_atischeckpoint_best
+[27, 100] loss: 0.001180
+Epoch: 27 Validation loss: 0.00330 accuracy: 0.99990
+[28, 100] loss: 0.001534
+Epoch: 28 Validation loss: 0.00218 accuracy: 0.99996
+[29, 100] loss: 0.001145
+Epoch: 29 Validation loss: 0.00146 accuracy: 0.99994
+Saving Model in checkpoints/BERT_TGRU_2b_atischeckpoint_best
+[30, 100] loss: 0.001200
+Epoch: 30 Validation loss: 0.00388 accuracy: 0.99980
+Saving Model in checkpoints/BERT_TGRU_2b_atischeckpoint_29
+[31, 100] loss: 0.001801
+Epoch: 31 Validation loss: 0.00146 accuracy: 0.99996
+[32, 100] loss: 0.000650
+Epoch: 32 Validation loss: 0.00133 accuracy: 0.99996
+Saving Model in checkpoints/BERT_TGRU_2b_atischeckpoint_best
+[33, 100] loss: 0.000754
+Epoch: 33 Validation loss: 0.00240 accuracy: 0.99992
+[34, 100] loss: 0.001423
+Epoch: 34 Validation loss: 0.00439 accuracy: 0.99984
+[35, 100] loss: 0.001508
+Epoch: 35 Validation loss: 0.00385 accuracy: 0.99990
+[36, 100] loss: 0.001628
+Epoch: 36 Validation loss: 0.00546 accuracy: 0.99978
+[37, 100] loss: 0.002018
+Epoch: 37 Validation loss: 0.00093 accuracy: 0.99996
+Saving Model in checkpoints/BERT_TGRU_2b_atischeckpoint_best
+[38, 100] loss: 0.000593
+Epoch: 38 Validation loss: 0.00122 accuracy: 0.99996
+[39, 100] loss: 0.001349
+Epoch: 39 Validation loss: 0.00202 accuracy: 0.99994
+[40, 100] loss: 0.001196
+Epoch: 40 Validation loss: 0.00091 accuracy: 0.99994
+Saving Model in checkpoints/BERT_TGRU_2b_atischeckpoint_best
+[41, 100] loss: 0.001711
+Epoch: 41 Validation loss: 0.00256 accuracy: 0.99992
+[42, 100] loss: 0.001111
+Epoch: 42 Validation loss: 0.00179 accuracy: 0.99994
+[43, 100] loss: 0.001671
+Epoch: 43 Validation loss: 0.00216 accuracy: 0.99992
+[44, 100] loss: 0.000925
+Epoch: 44 Validation loss: 0.00432 accuracy: 0.99988
+[45, 100] loss: 0.000927
+Epoch: 45 Validation loss: 0.00947 accuracy: 0.99966
+Epoch 00045: reducing learning rate of group 0 to 2.5000e-04.
+[46, 100] loss: 0.001527
+Epoch: 46 Validation loss: 0.00067 accuracy: 0.99998
+Saving Model in checkpoints/BERT_TGRU_2b_atischeckpoint_best
+[47, 100] loss: 0.000430
+Epoch: 47 Validation loss: 0.00044 accuracy: 0.99998
+Saving Model in checkpoints/BERT_TGRU_2b_atischeckpoint_best
+[48, 100] loss: 0.000581
+Epoch: 48 Validation loss: 0.00046 accuracy: 0.99998
+[49, 100] loss: 0.000422
+Epoch: 49 Validation loss: 0.00041 accuracy: 0.99998
+Saving Model in checkpoints/BERT_TGRU_2b_atischeckpoint_best
+[50, 100] loss: 0.000204
+Epoch: 50 Validation loss: 0.00040 accuracy: 0.99998
+Saving Model in checkpoints/BERT_TGRU_2b_atischeckpoint_best
+[51, 100] loss: 0.000206
+Epoch: 51 Validation loss: 0.00083 accuracy: 0.99996
+[52, 100] loss: 0.000335
+Epoch: 52 Validation loss: 0.00044 accuracy: 0.99998
+[53, 100] loss: 0.000392
+Epoch: 53 Validation loss: 0.00038 accuracy: 0.99998
+Saving Model in checkpoints/BERT_TGRU_2b_atischeckpoint_best
+[54, 100] loss: 0.000318
+Epoch: 54 Validation loss: 0.00036 accuracy: 0.99996
+Saving Model in checkpoints/BERT_TGRU_2b_atischeckpoint_best
+[55, 100] loss: 0.000795
+Epoch: 55 Validation loss: 0.00040 accuracy: 0.99998
+[56, 100] loss: 0.000192
+Epoch: 56 Validation loss: 0.00039 accuracy: 0.99998
+[57, 100] loss: 0.000288
+Epoch: 57 Validation loss: 0.00095 accuracy: 0.99996
+[58, 100] loss: 0.001178
+Epoch: 58 Validation loss: 0.00049 accuracy: 0.99998
+[59, 100] loss: 0.000555
+Epoch: 59 Validation loss: 0.00080 accuracy: 0.99996
+Epoch 00059: reducing learning rate of group 0 to 1.2500e-04.
+[60, 100] loss: 0.000342
+Epoch: 60 Validation loss: 0.00035 accuracy: 0.99998
+Saving Model in checkpoints/BERT_TGRU_2b_atischeckpoint_best
+[61, 100] loss: 0.000198
+Epoch: 61 Validation loss: 0.00038 accuracy: 0.99998
+[62, 100] loss: 0.000205
+Epoch: 62 Validation loss: 0.00031 accuracy: 0.99998
+Saving Model in checkpoints/BERT_TGRU_2b_atischeckpoint_best
+[63, 100] loss: 0.000232
+Epoch: 63 Validation loss: 0.00033 accuracy: 0.99998
+[64, 100] loss: 0.000624
+Epoch: 64 Validation loss: 0.00041 accuracy: 0.99998
+[65, 100] loss: 0.000188
+Epoch: 65 Validation loss: 0.00039 accuracy: 0.99998
+[66, 100] loss: 0.000158
+Epoch: 66 Validation loss: 0.00039 accuracy: 0.99998
+[67, 100] loss: 0.000222
+Epoch: 67 Validation loss: 0.00029 accuracy: 0.99998
+Saving Model in checkpoints/BERT_TGRU_2b_atischeckpoint_best
+[68, 100] loss: 0.000384
+Epoch: 68 Validation loss: 0.00042 accuracy: 0.99998
+[69, 100] loss: 0.000275
+Epoch: 69 Validation loss: 0.00029 accuracy: 0.99998
+[70, 100] loss: 0.000174
+Epoch: 70 Validation loss: 0.00038 accuracy: 0.99998
+Saving Model in checkpoints/BERT_TGRU_2b_atischeckpoint_69
+[71, 100] loss: 0.000113
+Epoch: 71 Validation loss: 0.00035 accuracy: 0.99998
+[72, 100] loss: 0.000104
+Epoch: 72 Validation loss: 0.00029 accuracy: 0.99998
+Saving Model in checkpoints/BERT_TGRU_2b_atischeckpoint_best
+[73, 100] loss: 0.000259
+Epoch: 73 Validation loss: 0.00030 accuracy: 0.99998
+[74, 100] loss: 0.000230
+Epoch: 74 Validation loss: 0.00040 accuracy: 0.99998
+[75, 100] loss: 0.000380
+Epoch: 75 Validation loss: 0.00029 accuracy: 0.99998
+[76, 100] loss: 0.000264
+Epoch: 76 Validation loss: 0.00032 accuracy: 0.99998
+[77, 100] loss: 0.000464
+Epoch: 77 Validation loss: 0.00036 accuracy: 0.99998
+Epoch 00077: reducing learning rate of group 0 to 6.2500e-05.
+[78, 100] loss: 0.000357
+Epoch: 78 Validation loss: 0.00030 accuracy: 0.99998
+[79, 100] loss: 0.000372
+Epoch: 79 Validation loss: 0.00029 accuracy: 0.99998
+Saving Model in checkpoints/BERT_TGRU_2b_atischeckpoint_best
+[80, 100] loss: 0.000096
+Epoch: 80 Validation loss: 0.00029 accuracy: 0.99998
+Saving Model in checkpoints/BERT_TGRU_2b_atischeckpoint_79
+[81, 100] loss: 0.000357
+Epoch: 81 Validation loss: 0.00042 accuracy: 0.99998
+[82, 100] loss: 0.000238
+Epoch: 82 Validation loss: 0.00029 accuracy: 0.99998
+[83, 100] loss: 0.000117
+Epoch: 83 Validation loss: 0.00030 accuracy: 0.99998
+[84, 100] loss: 0.000114
+Epoch: 84 Validation loss: 0.00031 accuracy: 0.99998
+Epoch 00084: reducing learning rate of group 0 to 3.1250e-05.
+[85, 100] loss: 0.000112
+Epoch: 85 Validation loss: 0.00029 accuracy: 0.99998
+[86, 100] loss: 0.000352
+Epoch: 86 Validation loss: 0.00029 accuracy: 0.99998
+[87, 100] loss: 0.000167
+Epoch: 87 Validation loss: 0.00031 accuracy: 0.99998
+[88, 100] loss: 0.000161
+Epoch: 88 Validation loss: 0.00029 accuracy: 0.99998
+Early Stopping the training
+Finished Training
+Saving Model in checkpoints/BERT_TGRU_2b_atisfinal
+Train loss = 3.332212509121746e-05 	 Train accuracy = 0.9999801968433768
+Val loss = 0.0003072667750529945 	 Val accuracy = 0.9999801968433768
+Test loss = 0.0001766438508639112 	 Test accuracy = 0.9999801968433768
+Train - Accuracy: 0.9999801516532898
+Val - Accuracy: 0.9915834069252014
+Test - Accuracy: 0.980248749256134

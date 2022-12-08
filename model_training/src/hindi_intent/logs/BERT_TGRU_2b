@@ -1,0 +1,53 @@
+Using device:  cuda
+Using 20 CPU cores
+Training new model  <class 'model.TorchGRUIntent'>
+Started Training of BERT_TGRU_2b_HDRS
+[1, 10] loss: 0.387822
+[1, 20] loss: 0.163625
+[1, 30] loss: 0.180650
+[1, 40] loss: 0.162002
+[1, 50] loss: 0.163809
+[1, 60] loss: 0.155325
+[1, 70] loss: 0.171131
+[1, 80] loss: 0.158014
+[1, 90] loss: 0.152698
+[1, 100] loss: 0.154055
+Epoch: 1 train loss: 0.15597 train_accuracy: 0.47019
+Epoch: 1 Validation loss: 0.15485 accuracy: 0.45794
+Saving Model in checkpoints/BERT_TGRU_2b_HDRScheckpoint_best
+[2, 10] loss: 0.157982
+[2, 20] loss: 0.159430
+[2, 30] loss: 0.150945
+[2, 40] loss: 0.163204
+[2, 50] loss: 0.156005
+[2, 60] loss: 0.158951
+[2, 70] loss: 0.152200
+[2, 80] loss: 0.156949
+[2, 90] loss: 0.157149
+[2, 100] loss: 0.168201
+Epoch: 2 train loss: 0.15781 train_accuracy: 0.41358
+Epoch: 2 Validation loss: 0.15295 accuracy: 0.46106
+Saving Model in checkpoints/BERT_TGRU_2b_HDRScheckpoint_best
+[3, 10] loss: 0.154583
+[3, 20] loss: 0.158599
+[3, 30] loss: 0.150591
+[3, 40] loss: 0.159677
+[3, 50] loss: 0.152681
+[3, 60] loss: 0.161675
+[3, 70] loss: 0.160196
+[3, 80] loss: 0.161003
+[3, 90] loss: 0.156690
+[3, 100] loss: 0.160778
+Epoch: 3 train loss: 0.15505 train_accuracy: 0.38943
+Epoch: 3 Validation loss: 0.15131 accuracy: 0.41121
+Saving Model in checkpoints/BERT_TGRU_2b_HDRScheckpoint_best
+[4, 10] loss: 0.158514
+[4, 20] loss: 0.159679
+[4, 30] loss: 0.159985
+[4, 40] loss: 0.154045
+[4, 50] loss: 0.158439
+[4, 60] loss: 0.164171
+[4, 70] loss: 0.164000
+[4, 80] loss: 0.160427
+[4, 90] loss: 0.153061
+[4, 100] loss: 0.150162

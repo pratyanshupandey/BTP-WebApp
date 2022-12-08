@@ -1,0 +1,94 @@
+Using device:  cuda
+Using 20 CPU cores
+Training new model  <class 'model.TorchGRUDiff'>
+Started Training of TGRU_2b
+[1, 100] loss: 0.08580
+[1, 200] loss: 0.02318
+[1, 300] loss: 0.01903
+[1, 400] loss: 0.01192
+[1, 500] loss: 0.01822
+Epoch: 1 Validation loss: 0.01119 accuracy: 0.99750
+[2, 100] loss: 0.03735
+[2, 200] loss: 0.01015
+[2, 300] loss: 0.00958
+[2, 400] loss: 0.00616
+[2, 500] loss: 0.01349
+Epoch: 2 Validation loss: 0.00546 accuracy: 0.99833
+[3, 100] loss: 0.00178
+[3, 200] loss: 0.00309
+[3, 300] loss: 0.00855
+[3, 400] loss: 0.00030
+[3, 500] loss: 0.00513
+Epoch: 3 Validation loss: 0.00447 accuracy: 0.99833
+[4, 100] loss: 0.00125
+[4, 200] loss: 0.00153
+[4, 300] loss: 0.00004
+[4, 400] loss: 0.00400
+[4, 500] loss: 0.00081
+Epoch: 4 Validation loss: 0.01315 accuracy: 0.99667
+[5, 100] loss: 0.00079
+[5, 200] loss: 0.00113
+[5, 300] loss: 0.00187
+[5, 400] loss: 0.00206
+[5, 500] loss: 0.00053
+Epoch: 5 Validation loss: 0.00325 accuracy: 0.99917
+[6, 100] loss: 0.00086
+[6, 200] loss: 0.00167
+[6, 300] loss: 0.00191
+[6, 400] loss: 0.00017
+[6, 500] loss: 0.00327
+Epoch: 6 Validation loss: 0.00539 accuracy: 0.99667
+[7, 100] loss: 0.00057
+[7, 200] loss: 0.00092
+[7, 300] loss: 0.00021
+[7, 400] loss: 0.00003
+[7, 500] loss: 0.00002
+Epoch: 7 Validation loss: 0.00783 accuracy: 0.99750
+[8, 100] loss: 0.00000
+[8, 200] loss: 0.00001
+[8, 300] loss: 0.00000
+[8, 400] loss: 0.00001
+[8, 500] loss: 0.00001
+Epoch: 8 Validation loss: 0.00734 accuracy: 0.99917
+[9, 100] loss: 0.00001
+[9, 200] loss: 0.00287
+[9, 300] loss: 0.00869
+[9, 400] loss: 0.00108
+[9, 500] loss: 0.00647
+Epoch: 9 Validation loss: 0.00844 accuracy: 0.99750
+[10, 100] loss: 0.00119
+[10, 200] loss: 0.00065
+[10, 300] loss: 0.00162
+[10, 400] loss: 0.00445
+[10, 500] loss: 0.00286
+Epoch: 10 Validation loss: 0.00611 accuracy: 0.99917
+Epoch 00010: reducing learning rate of group 0 to 5.0000e-04.
+[11, 100] loss: 0.00011
+[11, 200] loss: 0.00051
+[11, 300] loss: 0.00004
+[11, 400] loss: 0.00051
+[11, 500] loss: 0.00003
+Epoch: 11 Validation loss: 0.00448 accuracy: 0.99833
+[12, 100] loss: 0.00007
+[12, 200] loss: 0.00002
+[12, 300] loss: 0.00002
+[12, 400] loss: 0.00001
+[12, 500] loss: 0.00001
+Epoch: 12 Validation loss: 0.00502 accuracy: 0.99833
+[13, 100] loss: 0.00003
+[13, 200] loss: 0.00001
+[13, 300] loss: 0.00001
+[13, 400] loss: 0.00001
+[13, 500] loss: 0.00001
+Epoch: 13 Validation loss: 0.00544 accuracy: 0.99833
+[14, 100] loss: 0.00001
+[14, 200] loss: 0.00001
+[14, 300] loss: 0.00001
+[14, 400] loss: 0.00001
+[14, 500] loss: 0.00001
+Epoch: 14 Validation loss: 0.00576 accuracy: 0.99833
+Early Stopping the training
+Finished Training
+Saving Model in checkpoints/TGRU_2bfinal
+Val loss = 0.005761440843343735 	 Val accuracy = 0.9983333349227905
+Test loss = 0.0030946950428187847 	 Test accuracy = 0.998744547367096

@@ -1,0 +1,66 @@
+Using device:  cuda
+Using 20 CPU cores
+Training new model  <class 'model.TorchGRU'>
+Started Training of TGRU_4b_atis
+[1, 100] loss: 0.11612
+Epoch: 1 Validation loss: 0.11395 accuracy: 0.71372
+[2, 100] loss: 0.10232
+Epoch: 2 Validation loss: 0.11393 accuracy: 0.71372
+[3, 100] loss: 0.10483
+Epoch: 3 Validation loss: 0.11266 accuracy: 0.71372
+[4, 100] loss: 0.10270
+Epoch: 4 Validation loss: 0.10585 accuracy: 0.70775
+[5, 100] loss: 0.06880
+Epoch: 5 Validation loss: 0.07078 accuracy: 0.69185
+[6, 100] loss: 0.05120
+Epoch: 6 Validation loss: 0.04974 accuracy: 0.81312
+[7, 100] loss: 0.03239
+Epoch: 7 Validation loss: 0.03169 accuracy: 0.88469
+[8, 100] loss: 0.02192
+Epoch: 8 Validation loss: 0.02960 accuracy: 0.90457
+[9, 100] loss: 0.01867
+Epoch: 9 Validation loss: 0.02385 accuracy: 0.92247
+[10, 100] loss: 0.01293
+Epoch: 10 Validation loss: 0.01870 accuracy: 0.95030
+[11, 100] loss: 0.00813
+Epoch: 11 Validation loss: 0.01627 accuracy: 0.96620
+[12, 100] loss: 0.00750
+Epoch: 12 Validation loss: 0.01948 accuracy: 0.96223
+[13, 100] loss: 0.00667
+Epoch: 13 Validation loss: 0.01559 accuracy: 0.97217
+[14, 100] loss: 0.00538
+Epoch: 14 Validation loss: 0.01975 accuracy: 0.95825
+[15, 100] loss: 0.00735
+Epoch: 15 Validation loss: 0.01444 accuracy: 0.97018
+[16, 100] loss: 0.00382
+Epoch: 16 Validation loss: 0.01588 accuracy: 0.96421
+[17, 100] loss: 0.00333
+Epoch: 17 Validation loss: 0.01700 accuracy: 0.96421
+[18, 100] loss: 0.00387
+Epoch: 18 Validation loss: 0.01461 accuracy: 0.97217
+[19, 100] loss: 0.00285
+Epoch: 19 Validation loss: 0.01402 accuracy: 0.97217
+[20, 100] loss: 0.00178
+Epoch: 20 Validation loss: 0.01473 accuracy: 0.97018
+[21, 100] loss: 0.00159
+Epoch: 21 Validation loss: 0.01503 accuracy: 0.97018
+[22, 100] loss: 0.00116
+Epoch: 22 Validation loss: 0.01512 accuracy: 0.97813
+[23, 100] loss: 0.00088
+Epoch: 23 Validation loss: 0.01499 accuracy: 0.97813
+[24, 100] loss: 0.00088
+Epoch: 24 Validation loss: 0.01604 accuracy: 0.97614
+Epoch 00024: reducing learning rate of group 0 to 5.0000e-04.
+[25, 100] loss: 0.00039
+Epoch: 25 Validation loss: 0.01648 accuracy: 0.97416
+[26, 100] loss: 0.00081
+Epoch: 26 Validation loss: 0.01708 accuracy: 0.97217
+[27, 100] loss: 0.00043
+Epoch: 27 Validation loss: 0.01674 accuracy: 0.97614
+[28, 100] loss: 0.00075
+Epoch: 28 Validation loss: 0.01711 accuracy: 0.97614
+Early Stopping the training
+Finished Training
+Saving Model in checkpoints/TGRU_4b_atisfinal
+Val loss = 0.017114117741584778 	 Val accuracy = tensor([0.9761], device='cuda:0')
+Test loss = 0.019319206476211548 	 Test accuracy = tensor([0.9680], device='cuda:0')

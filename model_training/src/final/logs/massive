@@ -1,0 +1,446 @@
+Using device:  cuda
+Using 10 CPU cores
+Training new model  <class 'model.IntentModel'>
+Started Training of massive
+[1, 10] loss: 413.807587
+[1, 20] loss: 425.378174
+[1, 30] loss: 403.793549
+[1, 40] loss: 384.259216
+[1, 50] loss: 355.559723
+[1, 60] loss: 357.658539
+[1, 70] loss: 350.503754
+[1, 80] loss: 350.407745
+[1, 90] loss: 369.966156
+Epoch: 1 Validation loss: 383.58963 accuracy: 0.86276
+Epoch: 1 Test loss: 389.09213 accuracy: 0.87223
+Saving Model in checkpoints/massivecheckpoint_0
+[2, 10] loss: 314.959503
+[2, 20] loss: 307.205078
+[2, 30] loss: 308.319214
+[2, 40] loss: 314.573212
+[2, 50] loss: 304.332520
+[2, 60] loss: 304.596222
+[2, 70] loss: 311.980621
+[2, 80] loss: 314.972748
+[2, 90] loss: 294.588013
+Epoch: 2 Validation loss: 373.69324 accuracy: 0.87850
+Epoch: 2 Test loss: 379.88083 accuracy: 0.88164
+Saving Model in checkpoints/massivecheckpoint_1
+[3, 10] loss: 270.219269
+[3, 20] loss: 281.151794
+[3, 30] loss: 263.123199
+[3, 40] loss: 274.487854
+[3, 50] loss: 272.973785
+[3, 60] loss: 268.425964
+[3, 70] loss: 280.055817
+[3, 80] loss: 275.029266
+[3, 90] loss: 268.655029
+Epoch: 3 Validation loss: 369.21698 accuracy: 0.89080
+Epoch: 3 Test loss: 375.01752 accuracy: 0.88568
+Saving Model in checkpoints/massivecheckpoint_2
+[4, 10] loss: 260.336151
+[4, 20] loss: 251.672852
+[4, 30] loss: 245.107651
+[4, 40] loss: 250.373535
+[4, 50] loss: 248.270340
+[4, 60] loss: 239.645142
+[4, 70] loss: 258.318970
+[4, 80] loss: 258.969543
+[4, 90] loss: 246.781372
+Epoch: 4 Validation loss: 373.12399 accuracy: 0.88392
+Epoch: 4 Test loss: 370.09506 accuracy: 0.88837
+Saving Model in checkpoints/massivecheckpoint_3
+[5, 10] loss: 244.901047
+[5, 20] loss: 236.439194
+[5, 30] loss: 233.797516
+[5, 40] loss: 241.893723
+[5, 50] loss: 237.739746
+[5, 60] loss: 230.275223
+[5, 70] loss: 230.797607
+[5, 80] loss: 233.027985
+[5, 90] loss: 239.041489
+Epoch: 5 Validation loss: 366.39188 accuracy: 0.88441
+Epoch: 5 Test loss: 368.92438 accuracy: 0.88500
+Saving Model in checkpoints/massivecheckpoint_4
+[6, 10] loss: 221.664352
+[6, 20] loss: 222.556107
+[6, 30] loss: 224.934036
+[6, 40] loss: 225.754471
+[6, 50] loss: 218.032272
+[6, 60] loss: 233.718552
+[6, 70] loss: 229.003464
+[6, 80] loss: 237.653275
+[6, 90] loss: 237.825470
+Epoch: 6 Validation loss: 370.71393 accuracy: 0.88244
+Epoch: 6 Test loss: 373.48950 accuracy: 0.87122
+Saving Model in checkpoints/massivecheckpoint_5
+[7, 10] loss: 229.237411
+[7, 20] loss: 237.744751
+[7, 30] loss: 227.277695
+[7, 40] loss: 218.743164
+[7, 50] loss: 216.118561
+[7, 60] loss: 221.811279
+[7, 70] loss: 219.824570
+[7, 80] loss: 226.306076
+[7, 90] loss: 216.318680
+Epoch: 7 Validation loss: 357.22156 accuracy: 0.88293
+Epoch: 7 Test loss: 360.94336 accuracy: 0.87794
+Saving Model in checkpoints/massivecheckpoint_6
+[8, 10] loss: 202.248489
+[8, 20] loss: 216.996658
+[8, 30] loss: 203.130783
+[8, 40] loss: 205.031113
+[8, 50] loss: 208.726852
+[8, 60] loss: 204.607040
+[8, 70] loss: 211.303253
+[8, 80] loss: 209.006821
+[8, 90] loss: 195.298019
+Epoch: 8 Validation loss: 352.44879 accuracy: 0.88293
+Epoch: 8 Test loss: 347.26422 accuracy: 0.88265
+Saving Model in checkpoints/massivecheckpoint_7
+[9, 10] loss: 201.145737
+[9, 20] loss: 193.082764
+[9, 30] loss: 196.019562
+[9, 40] loss: 204.946609
+[9, 50] loss: 216.494461
+[9, 60] loss: 212.469116
+[9, 70] loss: 207.533737
+[9, 80] loss: 210.950592
+[9, 90] loss: 204.569382
+Epoch: 9 Validation loss: 361.45889 accuracy: 0.88096
+Epoch: 9 Test loss: 357.25836 accuracy: 0.88030
+Saving Model in checkpoints/massivecheckpoint_8
+[10, 10] loss: 206.433640
+[10, 20] loss: 214.177902
+[10, 30] loss: 200.810959
+[10, 40] loss: 196.209473
+[10, 50] loss: 210.420074
+[10, 60] loss: 201.672104
+[10, 70] loss: 208.209305
+[10, 80] loss: 204.556671
+[10, 90] loss: 199.520035
+Epoch: 10 Validation loss: 350.05542 accuracy: 0.88441
+Epoch: 10 Test loss: 347.39172 accuracy: 0.88601
+Saving Model in checkpoints/massivecheckpoint_9
+[11, 10] loss: 189.034973
+[11, 20] loss: 209.098984
+[11, 30] loss: 199.857956
+[11, 40] loss: 206.439255
+[11, 50] loss: 201.864655
+[11, 60] loss: 197.194763
+[11, 70] loss: 208.181961
+[11, 80] loss: 199.868881
+[11, 90] loss: 208.831863
+Epoch: 11 Validation loss: 368.00864 accuracy: 0.87654
+Epoch: 11 Test loss: 365.55457 accuracy: 0.87256
+Saving Model in checkpoints/massivecheckpoint_10
+[12, 10] loss: 218.010376
+[12, 20] loss: 200.466293
+[12, 30] loss: 207.261475
+[12, 40] loss: 203.868942
+[12, 50] loss: 191.015732
+[12, 60] loss: 190.475220
+[12, 70] loss: 201.533447
+[12, 80] loss: 196.054947
+[12, 90] loss: 202.829742
+Epoch: 12 Validation loss: 362.14917 accuracy: 0.87211
+Epoch: 12 Test loss: 361.01306 accuracy: 0.87962
+Saving Model in checkpoints/massivecheckpoint_11
+[13, 10] loss: 215.622482
+[13, 20] loss: 206.238892
+[13, 30] loss: 203.117538
+[13, 40] loss: 200.871796
+[13, 50] loss: 192.702866
+[13, 60] loss: 198.626724
+[13, 70] loss: 197.195847
+[13, 80] loss: 202.894867
+[13, 90] loss: 212.031738
+Epoch: 13 Validation loss: 356.20425 accuracy: 0.88392
+Epoch: 13 Test loss: 359.27533 accuracy: 0.87626
+Saving Model in checkpoints/massivecheckpoint_12
+[14, 10] loss: 200.787033
+[14, 20] loss: 204.911743
+[14, 30] loss: 200.426437
+[14, 40] loss: 193.350021
+[14, 50] loss: 187.121033
+[14, 60] loss: 190.558502
+[14, 70] loss: 186.994690
+[14, 80] loss: 195.231979
+[14, 90] loss: 211.927246
+Epoch: 14 Validation loss: 357.74512 accuracy: 0.88293
+Epoch: 14 Test loss: 363.72198 accuracy: 0.87828
+Saving Model in checkpoints/massivecheckpoint_13
+[15, 10] loss: 204.940659
+[15, 20] loss: 203.626511
+[15, 30] loss: 193.888596
+[15, 40] loss: 199.057953
+[15, 50] loss: 207.133347
+[15, 60] loss: 206.208054
+[15, 70] loss: 191.702118
+[15, 80] loss: 199.458496
+[15, 90] loss: 212.285721
+Epoch: 15 Validation loss: 364.54391 accuracy: 0.87605
+Epoch: 15 Test loss: 366.57907 accuracy: 0.87021
+Epoch 00015: reducing learning rate of group 0 to 5.0000e-05.
+Saving Model in checkpoints/massivecheckpoint_14
+[16, 10] loss: 206.459961
+[16, 20] loss: 195.846100
+[16, 30] loss: 187.079086
+[16, 40] loss: 181.952896
+[16, 50] loss: 178.593399
+[16, 60] loss: 182.880371
+[16, 70] loss: 182.233795
+[16, 80] loss: 177.277039
+[16, 90] loss: 181.130417
+Epoch: 16 Validation loss: 340.94977 accuracy: 0.88146
+Epoch: 16 Test loss: 340.77600 accuracy: 0.87761
+Saving Model in checkpoints/massivecheckpoint_15
+[17, 10] loss: 177.010574
+[17, 20] loss: 176.088943
+[17, 30] loss: 178.886948
+[17, 40] loss: 170.134338
+[17, 50] loss: 174.632629
+[17, 60] loss: 168.183929
+[17, 70] loss: 174.966614
+[17, 80] loss: 181.482651
+[17, 90] loss: 172.138931
+Epoch: 17 Validation loss: 339.30457 accuracy: 0.87998
+Epoch: 17 Test loss: 338.81897 accuracy: 0.88299
+Saving Model in checkpoints/massivecheckpoint_16
+[18, 10] loss: 163.399796
+[18, 20] loss: 163.026367
+[18, 30] loss: 170.622635
+[18, 40] loss: 158.134552
+[18, 50] loss: 165.734879
+[18, 60] loss: 166.043686
+[18, 70] loss: 165.761215
+[18, 80] loss: 168.571960
+[18, 90] loss: 161.981674
+Epoch: 18 Validation loss: 328.70148 accuracy: 0.88588
+Epoch: 18 Test loss: 329.68021 accuracy: 0.88668
+Saving Model in checkpoints/massivecheckpoint_17
+[19, 10] loss: 159.743576
+[19, 20] loss: 159.013412
+[19, 30] loss: 156.029846
+[19, 40] loss: 157.676910
+[19, 50] loss: 157.766418
+[19, 60] loss: 156.778122
+[19, 70] loss: 160.399628
+[19, 80] loss: 153.547775
+[19, 90] loss: 152.578766
+Epoch: 19 Validation loss: 327.32907 accuracy: 0.88687
+Epoch: 19 Test loss: 329.53912 accuracy: 0.88500
+Saving Model in checkpoints/massivecheckpoint_18
+[20, 10] loss: 161.934006
+[20, 20] loss: 155.388809
+[20, 30] loss: 160.583893
+[20, 40] loss: 158.033127
+[20, 50] loss: 153.322983
+[20, 60] loss: 148.349594
+[20, 70] loss: 151.270889
+[20, 80] loss: 157.314407
+[20, 90] loss: 152.268509
+Epoch: 20 Validation loss: 323.91745 accuracy: 0.88982
+Epoch: 20 Test loss: 323.50031 accuracy: 0.88702
+Saving Model in checkpoints/massivecheckpoint_19
+[21, 10] loss: 152.090408
+[21, 20] loss: 153.003021
+[21, 30] loss: 148.039902
+[21, 40] loss: 148.821381
+[21, 50] loss: 150.685043
+[21, 60] loss: 146.973465
+[21, 70] loss: 146.355835
+[21, 80] loss: 144.192078
+[21, 90] loss: 148.914688
+Epoch: 21 Validation loss: 320.76749 accuracy: 0.88736
+Epoch: 21 Test loss: 319.74084 accuracy: 0.88467
+Saving Model in checkpoints/massivecheckpoint_20
+[22, 10] loss: 148.511948
+[22, 20] loss: 141.862518
+[22, 30] loss: 146.738693
+[22, 40] loss: 146.674576
+[22, 50] loss: 144.995178
+[22, 60] loss: 146.218826
+[22, 70] loss: 143.808090
+[22, 80] loss: 149.251663
+[22, 90] loss: 144.202362
+Epoch: 22 Validation loss: 319.96259 accuracy: 0.88736
+Epoch: 22 Test loss: 318.97858 accuracy: 0.88668
+Saving Model in checkpoints/massivecheckpoint_21
+[23, 10] loss: 143.169464
+[23, 20] loss: 141.775970
+[23, 30] loss: 144.219696
+[23, 40] loss: 141.661407
+[23, 50] loss: 144.446335
+[23, 60] loss: 141.130646
+[23, 70] loss: 140.628708
+[23, 80] loss: 141.795395
+[23, 90] loss: 141.433289
+Epoch: 23 Validation loss: 317.12985 accuracy: 0.89031
+Epoch: 23 Test loss: 316.25180 accuracy: 0.88904
+Saving Model in checkpoints/massivecheckpoint_22
+[24, 10] loss: 141.928787
+[24, 20] loss: 140.567764
+[24, 30] loss: 143.266647
+[24, 40] loss: 144.377243
+[24, 50] loss: 140.724075
+[24, 60] loss: 141.531982
+[24, 70] loss: 142.224503
+[24, 80] loss: 136.930725
+[24, 90] loss: 142.285889
+Epoch: 24 Validation loss: 316.03452 accuracy: 0.89228
+Epoch: 24 Test loss: 314.37048 accuracy: 0.88971
+Saving Model in checkpoints/massivecheckpoint_23
+[25, 10] loss: 138.690292
+[25, 20] loss: 141.401825
+[25, 30] loss: 140.556839
+[25, 40] loss: 139.571014
+[25, 50] loss: 136.988831
+[25, 60] loss: 142.614609
+[25, 70] loss: 134.625183
+[25, 80] loss: 139.854065
+[25, 90] loss: 137.045319
+Epoch: 25 Validation loss: 314.90601 accuracy: 0.89228
+Epoch: 25 Test loss: 313.57709 accuracy: 0.88971
+Saving Model in checkpoints/massivecheckpoint_24
+[26, 10] loss: 138.597534
+[26, 20] loss: 134.430786
+[26, 30] loss: 141.152756
+[26, 40] loss: 137.182297
+[26, 50] loss: 135.674820
+[26, 60] loss: 133.352524
+[26, 70] loss: 135.856323
+[26, 80] loss: 139.775024
+[26, 90] loss: 134.097275
+Epoch: 26 Validation loss: 314.42419 accuracy: 0.89179
+Epoch: 26 Test loss: 313.19348 accuracy: 0.89106
+Saving Model in checkpoints/massivecheckpoint_25
+[27, 10] loss: 132.929443
+[27, 20] loss: 135.926437
+[27, 30] loss: 139.095932
+[27, 40] loss: 135.296753
+[27, 50] loss: 134.757004
+[27, 60] loss: 134.955490
+[27, 70] loss: 135.113388
+[27, 80] loss: 135.270462
+[27, 90] loss: 139.852463
+Epoch: 27 Validation loss: 313.96698 accuracy: 0.88982
+Epoch: 27 Test loss: 314.13129 accuracy: 0.88971
+Saving Model in checkpoints/massivecheckpoint_26
+[28, 10] loss: 135.838440
+[28, 20] loss: 135.132126
+[28, 30] loss: 139.617508
+[28, 40] loss: 138.404465
+[28, 50] loss: 134.058640
+[28, 60] loss: 137.091797
+[28, 70] loss: 134.140305
+[28, 80] loss: 143.561386
+[28, 90] loss: 139.989731
+Epoch: 28 Validation loss: 318.49979 accuracy: 0.88736
+Epoch: 28 Test loss: 316.44916 accuracy: 0.88668
+Saving Model in checkpoints/massivecheckpoint_27
+[29, 10] loss: 144.266281
+[29, 20] loss: 136.716537
+[29, 30] loss: 140.196426
+[29, 40] loss: 146.358047
+[29, 50] loss: 149.548019
+[29, 60] loss: 147.761520
+[29, 70] loss: 148.577148
+[29, 80] loss: 154.600632
+[29, 90] loss: 151.010254
+Epoch: 29 Validation loss: 323.02209 accuracy: 0.88539
+Epoch: 29 Test loss: 325.38165 accuracy: 0.88063
+Saving Model in checkpoints/massivecheckpoint_28
+[30, 10] loss: 150.758835
+[30, 20] loss: 155.587860
+[30, 30] loss: 153.081284
+[30, 40] loss: 146.584900
+[30, 50] loss: 155.006256
+[30, 60] loss: 156.473465
+[30, 70] loss: 153.258713
+[30, 80] loss: 152.900742
+[30, 90] loss: 146.660736
+Epoch: 30 Validation loss: 319.45312 accuracy: 0.88687
+Epoch: 30 Test loss: 318.11014 accuracy: 0.88668
+Saving Model in checkpoints/massivecheckpoint_29
+[31, 10] loss: 148.473022
+[31, 20] loss: 148.267685
+[31, 30] loss: 144.947739
+[31, 40] loss: 144.740265
+[31, 50] loss: 144.796463
+[31, 60] loss: 144.209442
+[31, 70] loss: 141.901932
+[31, 80] loss: 145.221100
+[31, 90] loss: 148.410233
+Epoch: 31 Validation loss: 322.34964 accuracy: 0.88539
+Epoch: 31 Test loss: 322.14059 accuracy: 0.88399
+Saving Model in checkpoints/massivecheckpoint_30
+[32, 10] loss: 149.050583
+[32, 20] loss: 145.938217
+[32, 30] loss: 146.796280
+[32, 40] loss: 146.522003
+[32, 50] loss: 150.152878
+[32, 60] loss: 147.259003
+[32, 70] loss: 151.649902
+[32, 80] loss: 144.158920
+[32, 90] loss: 147.708694
+Epoch: 32 Validation loss: 325.51913 accuracy: 0.88441
+Epoch: 32 Test loss: 322.91241 accuracy: 0.88870
+Epoch 00032: reducing learning rate of group 0 to 2.5000e-05.
+Saving Model in checkpoints/massivecheckpoint_31
+[33, 10] loss: 148.014297
+[33, 20] loss: 151.276108
+[33, 30] loss: 152.086044
+[33, 40] loss: 151.646164
+[33, 50] loss: 151.526108
+[33, 60] loss: 151.097809
+[33, 70] loss: 156.224518
+[33, 80] loss: 145.413925
+[33, 90] loss: 144.154465
+Epoch: 33 Validation loss: 318.37924 accuracy: 0.89031
+Epoch: 33 Test loss: 316.91870 accuracy: 0.88500
+Saving Model in checkpoints/massivecheckpoint_32
+[34, 10] loss: 146.604538
+[34, 20] loss: 148.833069
+[34, 30] loss: 142.047958
+[34, 40] loss: 138.861115
+[34, 50] loss: 139.532455
+[34, 60] loss: 144.043793
+[34, 70] loss: 146.652298
+[34, 80] loss: 144.840225
+[34, 90] loss: 145.480515
+Epoch: 34 Validation loss: 318.89456 accuracy: 0.88687
+Epoch: 34 Test loss: 318.96356 accuracy: 0.88635
+Saving Model in checkpoints/massivecheckpoint_33
+[35, 10] loss: 141.567566
+[35, 20] loss: 139.941452
+[35, 30] loss: 148.498016
+[35, 40] loss: 148.978043
+[35, 50] loss: 143.320358
+[35, 60] loss: 144.998505
+[35, 70] loss: 144.873886
+[35, 80] loss: 147.533173
+[35, 90] loss: 147.077866
+Epoch: 35 Validation loss: 323.03760 accuracy: 0.88637
+Epoch: 35 Test loss: 320.36618 accuracy: 0.88063
+Saving Model in checkpoints/massivecheckpoint_34
+[36, 10] loss: 151.759338
+[36, 20] loss: 148.557617
+[36, 30] loss: 145.531754
+[36, 40] loss: 148.334396
+[36, 50] loss: 142.245834
+[36, 60] loss: 143.869492
+[36, 70] loss: 141.912888
+[36, 80] loss: 149.339203
+[36, 90] loss: 146.411514
+Epoch: 36 Validation loss: 318.03900 accuracy: 0.88687
+Epoch: 36 Test loss: 316.36023 accuracy: 0.88702
+Saving Model in checkpoints/massivecheckpoint_35
+Early Stopping the training
+Finished Training
+Saving Model in checkpoints/massivefinal
+Val loss = 318.03900146484375 	 Val accuracy = 0.8868666887283325
+Test loss = 316.3602294921875 	 Test accuracy = 0.8870208263397217
+
+
+Choosing checkpoints/massivecheckpoint_25

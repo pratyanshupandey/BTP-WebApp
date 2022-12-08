@@ -1,0 +1,95 @@
+Using device:  cuda
+Using 15 CPU cores
+Training new model  <class 'model.TorchGRUIntent'>
+Started Training of BERT_TGRU_2b_atis_h
+[1, 100] loss: 0.10292
+[1, 200] loss: 0.03332
+[1, 300] loss: 0.03231
+[1, 400] loss: 0.02709
+Epoch: 1 Validation loss: 0.01639 accuracy: 0.98143
+[2, 100] loss: 0.01570
+[2, 200] loss: 0.01950
+[2, 300] loss: 0.01743
+[2, 400] loss: 0.01922
+Epoch: 2 Validation loss: 0.01432 accuracy: 0.98571
+[3, 100] loss: 0.01130
+[3, 200] loss: 0.01238
+[3, 300] loss: 0.01698
+[3, 400] loss: 0.01319
+Epoch: 3 Validation loss: 0.01260 accuracy: 0.98429
+[4, 100] loss: 0.00903
+[4, 200] loss: 0.01163
+[4, 300] loss: 0.00992
+[4, 400] loss: 0.01456
+Epoch: 4 Validation loss: 0.01887 accuracy: 0.97571
+[5, 100] loss: 0.01078
+[5, 200] loss: 0.01027
+[5, 300] loss: 0.00734
+[5, 400] loss: 0.00950
+Epoch: 5 Validation loss: 0.01397 accuracy: 0.98714
+[6, 100] loss: 0.00476
+[6, 200] loss: 0.00719
+[6, 300] loss: 0.00799
+[6, 400] loss: 0.01078
+Epoch: 6 Validation loss: 0.01406 accuracy: 0.98429
+[7, 100] loss: 0.00407
+[7, 200] loss: 0.00543
+[7, 300] loss: 0.00568
+[7, 400] loss: 0.00624
+Epoch: 7 Validation loss: 0.01694 accuracy: 0.97857
+[8, 100] loss: 0.00572
+[8, 200] loss: 0.00638
+[8, 300] loss: 0.00463
+[8, 400] loss: 0.00842
+Epoch: 8 Validation loss: 0.00822 accuracy: 0.98714
+[9, 100] loss: 0.00354
+[9, 200] loss: 0.00347
+[9, 300] loss: 0.00330
+[9, 400] loss: 0.00638
+Epoch: 9 Validation loss: 0.01298 accuracy: 0.99000
+[10, 100] loss: 0.00461
+[10, 200] loss: 0.00295
+[10, 300] loss: 0.00550
+[10, 400] loss: 0.00410
+Epoch: 10 Validation loss: 0.01511 accuracy: 0.98429
+[11, 100] loss: 0.00432
+[11, 200] loss: 0.00295
+[11, 300] loss: 0.00625
+[11, 400] loss: 0.00505
+Epoch: 11 Validation loss: 0.02097 accuracy: 0.98143
+[12, 100] loss: 0.00248
+[12, 200] loss: 0.00388
+[12, 300] loss: 0.00325
+[12, 400] loss: 0.00529
+Epoch: 12 Validation loss: 0.02347 accuracy: 0.98571
+[13, 100] loss: 0.00254
+[13, 200] loss: 0.00401
+[13, 300] loss: 0.00625
+[13, 400] loss: 0.00394
+Epoch: 13 Validation loss: 0.02015 accuracy: 0.98286
+Epoch 00013: reducing learning rate of group 0 to 5.0000e-04.
+[14, 100] loss: 0.00183
+[14, 200] loss: 0.00079
+[14, 300] loss: 0.00091
+[14, 400] loss: 0.00112
+Epoch: 14 Validation loss: 0.01984 accuracy: 0.98429
+[15, 100] loss: 0.00077
+[15, 200] loss: 0.00081
+[15, 300] loss: 0.00126
+[15, 400] loss: 0.00193
+Epoch: 15 Validation loss: 0.02040 accuracy: 0.98286
+[16, 100] loss: 0.00153
+[16, 200] loss: 0.00073
+[16, 300] loss: 0.00051
+[16, 400] loss: 0.00098
+Epoch: 16 Validation loss: 0.02492 accuracy: 0.98571
+[17, 100] loss: 0.00116
+[17, 200] loss: 0.00182
+[17, 300] loss: 0.00100
+[17, 400] loss: 0.00182
+Epoch: 17 Validation loss: 0.01795 accuracy: 0.98429
+Early Stopping the training
+Finished Training
+Saving Model in checkpoints/BERT_TGRU_2b_atis_hfinal
+Val loss = 0.017947858199477196 	 Val accuracy = tensor([0.9843], device='cuda:0')
+Test loss = 0.041295576840639114 	 Test accuracy = tensor([0.9686], device='cuda:0')

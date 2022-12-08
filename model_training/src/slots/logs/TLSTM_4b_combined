@@ -1,0 +1,115 @@
+Using device:  cuda
+Using 20 CPU cores
+Training new model  <class 'model.TorchLSTM'>
+Started Training of TLSTM_4b_combined
+[1, 100] loss: 0.87406
+[1, 200] loss: 0.52172
+[1, 300] loss: 0.40928
+[1, 400] loss: 0.31510
+[1, 500] loss: 0.23702
+Epoch: 1 Validation loss: 0.09686 accuracy: 0.10269
+[2, 100] loss: 0.15385
+[2, 200] loss: 0.12277
+[2, 300] loss: 0.10183
+[2, 400] loss: 0.09076
+[2, 500] loss: 0.07449
+Epoch: 2 Validation loss: 0.04098 accuracy: 0.07448
+[3, 100] loss: 0.05602
+[3, 200] loss: 0.05203
+[3, 300] loss: 0.04611
+[3, 400] loss: 0.04644
+[3, 500] loss: 0.04201
+Epoch: 3 Validation loss: 0.02345 accuracy: 0.07083
+[4, 100] loss: 0.03025
+[4, 200] loss: 0.02814
+[4, 300] loss: 0.02683
+[4, 400] loss: 0.02768
+[4, 500] loss: 0.02633
+Epoch: 4 Validation loss: 0.02284 accuracy: 0.06221
+[5, 100] loss: 0.02048
+[5, 200] loss: 0.02022
+[5, 300] loss: 0.01948
+[5, 400] loss: 0.02039
+[5, 500] loss: 0.01765
+Epoch: 5 Validation loss: 0.01791 accuracy: 0.06971
+[6, 100] loss: 0.01385
+[6, 200] loss: 0.01490
+[6, 300] loss: 0.01307
+[6, 400] loss: 0.01355
+[6, 500] loss: 0.01271
+Epoch: 6 Validation loss: 0.01737 accuracy: 0.06200
+[7, 100] loss: 0.00946
+[7, 200] loss: 0.01008
+[7, 300] loss: 0.01250
+[7, 400] loss: 0.01165
+[7, 500] loss: 0.01103
+Epoch: 7 Validation loss: 0.01655 accuracy: 0.06026
+[8, 100] loss: 0.00645
+[8, 200] loss: 0.00803
+[8, 300] loss: 0.00791
+[8, 400] loss: 0.00836
+[8, 500] loss: 0.00804
+Epoch: 8 Validation loss: 0.01617 accuracy: 0.06264
+[9, 100] loss: 0.00536
+[9, 200] loss: 0.00651
+[9, 300] loss: 0.00747
+[9, 400] loss: 0.00814
+[9, 500] loss: 0.00881
+Epoch: 9 Validation loss: 0.01724 accuracy: 0.06214
+[10, 100] loss: 0.00552
+[10, 200] loss: 0.00498
+[10, 300] loss: 0.00596
+[10, 400] loss: 0.00615
+[10, 500] loss: 0.00572
+Epoch: 10 Validation loss: 0.01843 accuracy: 0.06179
+Saving Model in checkpoints/TLSTM_4b_combinedcheckpoint_9
+[11, 100] loss: 0.00379
+[11, 200] loss: 0.00371
+[11, 300] loss: 0.00477
+[11, 400] loss: 0.00635
+[11, 500] loss: 0.00642
+Epoch: 11 Validation loss: 0.01807 accuracy: 0.05807
+[12, 100] loss: 0.00421
+[12, 200] loss: 0.00350
+[12, 300] loss: 0.00440
+[12, 400] loss: 0.00553
+[12, 500] loss: 0.00407
+Epoch: 12 Validation loss: 0.01939 accuracy: 0.06510
+[13, 100] loss: 0.00318
+[13, 200] loss: 0.00271
+[13, 300] loss: 0.00303
+[13, 400] loss: 0.00398
+[13, 500] loss: 0.00364
+Epoch: 13 Validation loss: 0.01943 accuracy: 0.06869
+Epoch 00013: reducing learning rate of group 0 to 5.0000e-04.
+[14, 100] loss: 0.00168
+[14, 200] loss: 0.00147
+[14, 300] loss: 0.00121
+[14, 400] loss: 0.00141
+[14, 500] loss: 0.00134
+Epoch: 14 Validation loss: 0.01906 accuracy: 0.06905
+[15, 100] loss: 0.00069
+[15, 200] loss: 0.00080
+[15, 300] loss: 0.00066
+[15, 400] loss: 0.00072
+[15, 500] loss: 0.00081
+Epoch: 15 Validation loss: 0.01961 accuracy: 0.06752
+[16, 100] loss: 0.00105
+[16, 200] loss: 0.00091
+[16, 300] loss: 0.00074
+[16, 400] loss: 0.00072
+[16, 500] loss: 0.00123
+Epoch: 16 Validation loss: 0.02081 accuracy: 0.07198
+[17, 100] loss: 0.00092
+[17, 200] loss: 0.00056
+[17, 300] loss: 0.00071
+[17, 400] loss: 0.00071
+[17, 500] loss: 0.00076
+Epoch: 17 Validation loss: 0.02050 accuracy: 0.06726
+Early Stopping the training
+Finished Training
+Saving Model in checkpoints/TLSTM_4b_combinedfinal
+Test loss = 0.036070846021175385 	 Test accuracy = 0.09150449931621552
+Train - Accuracy: 0.9910521590753699
+Val - Accuracy: 0.9612807148175726
+Test - Accuracy: 0.9529578553937363

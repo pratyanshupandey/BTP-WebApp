@@ -1,0 +1,79 @@
+Using device:  cuda
+Using 20 CPU cores
+Training new model  <class 'model.LanguageModelRNN'>
+Started Training of RNN
+[1, 100] loss: 0.66363
+Epoch: 1 Validation loss: 0.13650 accuracy: 0.56114
+[2, 100] loss: 0.15101
+Epoch: 2 Validation loss: 0.06479 accuracy: 0.50286
+[3, 100] loss: 0.07757
+Epoch: 3 Validation loss: 0.04140 accuracy: 0.46411
+[4, 100] loss: 0.05155
+Epoch: 4 Validation loss: 0.03095 accuracy: 0.43269
+[5, 100] loss: 0.03863
+Epoch: 5 Validation loss: 0.02626 accuracy: 0.35994
+[6, 100] loss: 0.03177
+Epoch: 6 Validation loss: 0.02081 accuracy: 0.29994
+[7, 100] loss: 0.02570
+Epoch: 7 Validation loss: 0.01808 accuracy: 0.22423
+[8, 100] loss: 0.02084
+Epoch: 8 Validation loss: 0.01746 accuracy: 0.22520
+[9, 100] loss: 0.01749
+Epoch: 9 Validation loss: 0.01434 accuracy: 0.20417
+[10, 100] loss: 0.01595
+Epoch: 10 Validation loss: 0.01525 accuracy: 0.22657
+Saving Model in checkpoints/RNNcheckpoint_9
+[11, 100] loss: 0.01474
+Epoch: 11 Validation loss: 0.01333 accuracy: 0.20109
+[12, 100] loss: 0.01245
+Epoch: 12 Validation loss: 0.01247 accuracy: 0.16966
+[13, 100] loss: 0.01015
+Epoch: 13 Validation loss: 0.01221 accuracy: 0.17480
+[14, 100] loss: 0.01049
+Epoch: 14 Validation loss: 0.01228 accuracy: 0.15320
+[15, 100] loss: 0.00799
+Epoch: 15 Validation loss: 0.01114 accuracy: 0.16120
+[16, 100] loss: 0.00679
+Epoch: 16 Validation loss: 0.01229 accuracy: 0.13486
+[17, 100] loss: 0.00874
+Epoch: 17 Validation loss: 0.01097 accuracy: 0.15977
+[18, 100] loss: 0.00547
+Epoch: 18 Validation loss: 0.01027 accuracy: 0.18829
+[19, 100] loss: 0.00728
+Epoch: 19 Validation loss: 0.01083 accuracy: 0.15469
+[20, 100] loss: 0.00432
+Epoch: 20 Validation loss: 0.01107 accuracy: 0.14566
+Saving Model in checkpoints/RNNcheckpoint_19
+[21, 100] loss: 0.00338
+Epoch: 21 Validation loss: 0.01030 accuracy: 0.14743
+[22, 100] loss: 0.00329
+Epoch: 22 Validation loss: 0.01010 accuracy: 0.17366
+[23, 100] loss: 0.00303
+Epoch: 23 Validation loss: 0.01014 accuracy: 0.16166
+[24, 100] loss: 0.00263
+Epoch: 24 Validation loss: 0.01105 accuracy: 0.12469
+[25, 100] loss: 0.00261
+Epoch: 25 Validation loss: 0.01113 accuracy: 0.16303
+[26, 100] loss: 0.00218
+Epoch: 26 Validation loss: 0.01047 accuracy: 0.15354
+[27, 100] loss: 0.00199
+Epoch: 27 Validation loss: 0.01095 accuracy: 0.12423
+Epoch 00027: reducing learning rate of group 0 to 5.0000e-04.
+[28, 100] loss: 0.00171
+Epoch: 28 Validation loss: 0.01035 accuracy: 0.15566
+[29, 100] loss: 0.00144
+Epoch: 29 Validation loss: 0.01038 accuracy: 0.15851
+[30, 100] loss: 0.00138
+Epoch: 30 Validation loss: 0.01038 accuracy: 0.16669
+Saving Model in checkpoints/RNNcheckpoint_29
+[31, 100] loss: 0.00142
+Epoch: 31 Validation loss: 0.01041 accuracy: 0.18743
+Early Stopping the training
+Finished Training
+Saving Model in checkpoints/RNNfinal
+Test loss = 0.033975664526224136 	 Test accuracy = 0.16196341812610626
+Train - Accuracy: 0.9989702358555954
+Val - Accuracy: 0.9833421006487814
+Test - Accuracy: 0.9728284591881274
+
+Config = Single celled RNN

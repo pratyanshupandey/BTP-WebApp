@@ -1,0 +1,70 @@
+Using device:  cuda
+Using 15 CPU cores
+Training new model  <class 'model.TorchGRUIntent'>
+Started Training of BERT_TGRU_2b_snips
+[1, 100] loss: 0.11191
+[1, 200] loss: 0.04478
+[1, 300] loss: 0.02662
+[1, 400] loss: 0.02707
+Epoch: 1 Validation loss: 0.02639 accuracy: 0.97429
+[2, 100] loss: 0.01556
+[2, 200] loss: 0.01923
+[2, 300] loss: 0.01780
+[2, 400] loss: 0.01816
+Epoch: 2 Validation loss: 0.01791 accuracy: 0.97714
+[3, 100] loss: 0.01640
+[3, 200] loss: 0.01038
+[3, 300] loss: 0.01490
+[3, 400] loss: 0.01052
+Epoch: 3 Validation loss: 0.01256 accuracy: 0.98286
+[4, 100] loss: 0.01248
+[4, 200] loss: 0.01213
+[4, 300] loss: 0.00987
+[4, 400] loss: 0.01037
+Epoch: 4 Validation loss: 0.01256 accuracy: 0.98857
+[5, 100] loss: 0.00861
+[5, 200] loss: 0.00689
+[5, 300] loss: 0.01285
+[5, 400] loss: 0.00801
+Epoch: 5 Validation loss: 0.01710 accuracy: 0.98000
+[6, 100] loss: 0.00670
+[6, 200] loss: 0.00692
+[6, 300] loss: 0.01052
+[6, 400] loss: 0.00663
+Epoch: 6 Validation loss: 0.01481 accuracy: 0.98286
+[7, 100] loss: 0.00522
+[7, 200] loss: 0.00641
+[7, 300] loss: 0.00519
+[7, 400] loss: 0.00748
+Epoch: 7 Validation loss: 0.01658 accuracy: 0.98571
+[8, 100] loss: 0.00559
+[8, 200] loss: 0.00738
+[8, 300] loss: 0.00652
+[8, 400] loss: 0.00635
+Epoch: 8 Validation loss: 0.01603 accuracy: 0.98429
+Epoch 00008: reducing learning rate of group 0 to 5.0000e-04.
+[9, 100] loss: 0.00425
+[9, 200] loss: 0.00332
+[9, 300] loss: 0.00378
+[9, 400] loss: 0.00214
+Epoch: 9 Validation loss: 0.01624 accuracy: 0.98714
+[10, 100] loss: 0.00221
+[10, 200] loss: 0.00202
+[10, 300] loss: 0.00186
+[10, 400] loss: 0.00180
+Epoch: 10 Validation loss: 0.02016 accuracy: 0.98429
+[11, 100] loss: 0.00142
+[11, 200] loss: 0.00256
+[11, 300] loss: 0.00207
+[11, 400] loss: 0.00193
+Epoch: 11 Validation loss: 0.01772 accuracy: 0.98571
+[12, 100] loss: 0.00152
+[12, 200] loss: 0.00176
+[12, 300] loss: 0.00176
+[12, 400] loss: 0.00221
+Epoch: 12 Validation loss: 0.01504 accuracy: 0.98857
+Early Stopping the training
+Finished Training
+Saving Model in checkpoints/BERT_TGRU_2b_snipsfinal
+Val loss = 0.015042068436741829 	 Val accuracy = tensor([0.9886], device='cuda:0')
+Test loss = 0.02771148644387722 	 Test accuracy = tensor([0.9729], device='cuda:0')

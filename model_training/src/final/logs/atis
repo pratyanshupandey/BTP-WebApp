@@ -1,0 +1,260 @@
+Using device:  cuda
+Using 10 CPU cores
+Training new model  <class 'model.IntentModel'>
+Started Training of atis
+[1, 10] loss: 330.647919
+[1, 20] loss: 248.029907
+[1, 30] loss: 244.625778
+Epoch: 1 Validation loss: 218.44901 accuracy: 0.96400
+Epoch: 1 Test loss: 190.40872 accuracy: 0.92385
+Saving Model in checkpoints/atischeckpoint_0
+[2, 10] loss: 215.373154
+[2, 20] loss: 196.449707
+[2, 30] loss: 193.934128
+Epoch: 2 Validation loss: 191.96899 accuracy: 0.97600
+Epoch: 2 Test loss: 165.73770 accuracy: 0.97648
+Saving Model in checkpoints/atischeckpoint_1
+[3, 10] loss: 193.726852
+[3, 20] loss: 187.102356
+[3, 30] loss: 183.975113
+Epoch: 3 Validation loss: 171.53883 accuracy: 0.98000
+Epoch: 3 Test loss: 150.90636 accuracy: 0.97872
+Saving Model in checkpoints/atischeckpoint_2
+[4, 10] loss: 169.738571
+[4, 20] loss: 173.692474
+[4, 30] loss: 159.597565
+Epoch: 4 Validation loss: 152.79028 accuracy: 0.97800
+Epoch: 4 Test loss: 131.44336 accuracy: 0.98096
+Saving Model in checkpoints/atischeckpoint_3
+[5, 10] loss: 157.665207
+[5, 20] loss: 167.120956
+[5, 30] loss: 164.532745
+Epoch: 5 Validation loss: 165.80571 accuracy: 0.97800
+Epoch: 5 Test loss: 141.81418 accuracy: 0.98320
+Saving Model in checkpoints/atischeckpoint_4
+[6, 10] loss: 146.897858
+[6, 20] loss: 126.857292
+[6, 30] loss: 125.378868
+Epoch: 6 Validation loss: 137.63513 accuracy: 0.97600
+Epoch: 6 Test loss: 113.13859 accuracy: 0.98544
+Saving Model in checkpoints/atischeckpoint_5
+[7, 10] loss: 143.097260
+[7, 20] loss: 147.736832
+[7, 30] loss: 151.352371
+Epoch: 7 Validation loss: 158.97069 accuracy: 0.98200
+Epoch: 7 Test loss: 138.50203 accuracy: 0.97760
+Saving Model in checkpoints/atischeckpoint_6
+[8, 10] loss: 161.979965
+[8, 20] loss: 153.658478
+[8, 30] loss: 155.205002
+Epoch: 8 Validation loss: 155.31798 accuracy: 0.97800
+Epoch: 8 Test loss: 128.91273 accuracy: 0.98096
+Saving Model in checkpoints/atischeckpoint_7
+[9, 10] loss: 133.840698
+[9, 20] loss: 153.197464
+[9, 30] loss: 156.842880
+Epoch: 9 Validation loss: 166.81662 accuracy: 0.98400
+Epoch: 9 Test loss: 152.91336 accuracy: 0.97984
+Saving Model in checkpoints/atischeckpoint_8
+[10, 10] loss: 152.115082
+[10, 20] loss: 145.446854
+[10, 30] loss: 155.455307
+Epoch: 10 Validation loss: 187.82712 accuracy: 0.97400
+Epoch: 10 Test loss: 154.78326 accuracy: 0.98656
+Saving Model in checkpoints/atischeckpoint_9
+[11, 10] loss: 158.735611
+[11, 20] loss: 140.636276
+[11, 30] loss: 124.952065
+Epoch: 11 Validation loss: 166.23442 accuracy: 0.97000
+Epoch: 11 Test loss: 134.53200 accuracy: 0.98208
+Epoch 00011: reducing learning rate of group 0 to 5.0000e-05.
+Saving Model in checkpoints/atischeckpoint_10
+[12, 10] loss: 153.682877
+[12, 20] loss: 143.216034
+[12, 30] loss: 139.366730
+Epoch: 12 Validation loss: 140.72997 accuracy: 0.97600
+Epoch: 12 Test loss: 126.40247 accuracy: 0.98208
+Saving Model in checkpoints/atischeckpoint_11
+[13, 10] loss: 127.245872
+[13, 20] loss: 139.964874
+[13, 30] loss: 188.621002
+Epoch: 13 Validation loss: 157.67476 accuracy: 0.97600
+Epoch: 13 Test loss: 134.60640 accuracy: 0.97872
+Saving Model in checkpoints/atischeckpoint_12
+[14, 10] loss: 141.144226
+[14, 20] loss: 140.725815
+[14, 30] loss: 136.578430
+Epoch: 14 Validation loss: 142.75552 accuracy: 0.97600
+Epoch: 14 Test loss: 126.85213 accuracy: 0.98208
+Saving Model in checkpoints/atischeckpoint_13
+[15, 10] loss: 124.698792
+[15, 20] loss: 122.299744
+[15, 30] loss: 119.216019
+Epoch: 15 Validation loss: 130.99739 accuracy: 0.97800
+Epoch: 15 Test loss: 117.94220 accuracy: 0.98096
+Saving Model in checkpoints/atischeckpoint_14
+[16, 10] loss: 120.771660
+[16, 20] loss: 118.697929
+[16, 30] loss: 112.965332
+Epoch: 16 Validation loss: 125.96889 accuracy: 0.97600
+Epoch: 16 Test loss: 112.03459 accuracy: 0.98320
+Saving Model in checkpoints/atischeckpoint_15
+[17, 10] loss: 111.468948
+[17, 20] loss: 109.529480
+[17, 30] loss: 110.475914
+Epoch: 17 Validation loss: 120.28323 accuracy: 0.97600
+Epoch: 17 Test loss: 107.83183 accuracy: 0.98320
+Saving Model in checkpoints/atischeckpoint_16
+[18, 10] loss: 107.469193
+[18, 20] loss: 107.198303
+[18, 30] loss: 105.691856
+Epoch: 18 Validation loss: 114.41033 accuracy: 0.97600
+Epoch: 18 Test loss: 104.22598 accuracy: 0.98096
+Saving Model in checkpoints/atischeckpoint_17
+[19, 10] loss: 100.361595
+[19, 20] loss: 101.280624
+[19, 30] loss: 101.063057
+Epoch: 19 Validation loss: 117.62868 accuracy: 0.97600
+Epoch: 19 Test loss: 105.44102 accuracy: 0.97984
+Saving Model in checkpoints/atischeckpoint_18
+[20, 10] loss: 100.854088
+[20, 20] loss: 103.144791
+[20, 30] loss: 109.304337
+Epoch: 20 Validation loss: 122.95184 accuracy: 0.97600
+Epoch: 20 Test loss: 107.78117 accuracy: 0.98208
+Saving Model in checkpoints/atischeckpoint_19
+[21, 10] loss: 109.098083
+[21, 20] loss: 102.107559
+[21, 30] loss: 102.957703
+Epoch: 21 Validation loss: 114.27451 accuracy: 0.97600
+Epoch: 21 Test loss: 102.37167 accuracy: 0.98208
+Saving Model in checkpoints/atischeckpoint_20
+[22, 10] loss: 96.172249
+[22, 20] loss: 99.765182
+[22, 30] loss: 99.504456
+Epoch: 22 Validation loss: 111.92776 accuracy: 0.97600
+Epoch: 22 Test loss: 100.63670 accuracy: 0.98208
+Saving Model in checkpoints/atischeckpoint_21
+[23, 10] loss: 93.334160
+[23, 20] loss: 94.840355
+[23, 30] loss: 93.817940
+Epoch: 23 Validation loss: 112.26682 accuracy: 0.97600
+Epoch: 23 Test loss: 100.62473 accuracy: 0.98208
+Saving Model in checkpoints/atischeckpoint_22
+[24, 10] loss: 95.016350
+[24, 20] loss: 92.379875
+[24, 30] loss: 87.614250
+Epoch: 24 Validation loss: 107.37195 accuracy: 0.97600
+Epoch: 24 Test loss: 96.43385 accuracy: 0.98208
+Saving Model in checkpoints/atischeckpoint_23
+[25, 10] loss: 91.446236
+[25, 20] loss: 87.128639
+[25, 30] loss: 88.710678
+Epoch: 25 Validation loss: 105.83255 accuracy: 0.97600
+Epoch: 25 Test loss: 94.55746 accuracy: 0.98208
+Saving Model in checkpoints/atischeckpoint_24
+[26, 10] loss: 85.184349
+[26, 20] loss: 85.037178
+[26, 30] loss: 85.110565
+Epoch: 26 Validation loss: 99.30713 accuracy: 0.97600
+Epoch: 26 Test loss: 88.47374 accuracy: 0.98208
+Saving Model in checkpoints/atischeckpoint_25
+[27, 10] loss: 78.301826
+[27, 20] loss: 82.209229
+[27, 30] loss: 80.864944
+Epoch: 27 Validation loss: 99.72691 accuracy: 0.97600
+Epoch: 27 Test loss: 87.99516 accuracy: 0.98208
+Saving Model in checkpoints/atischeckpoint_26
+[28, 10] loss: 77.198936
+[28, 20] loss: 77.106636
+[28, 30] loss: 78.726891
+Epoch: 28 Validation loss: 95.34369 accuracy: 0.97600
+Epoch: 28 Test loss: 84.61237 accuracy: 0.98208
+Saving Model in checkpoints/atischeckpoint_27
+[29, 10] loss: 76.033577
+[29, 20] loss: 72.546341
+[29, 30] loss: 77.981483
+Epoch: 29 Validation loss: 94.30565 accuracy: 0.97600
+Epoch: 29 Test loss: 83.47359 accuracy: 0.98208
+Saving Model in checkpoints/atischeckpoint_28
+[30, 10] loss: 75.861473
+[30, 20] loss: 76.208916
+[30, 30] loss: 73.723145
+Epoch: 30 Validation loss: 92.72760 accuracy: 0.97600
+Epoch: 30 Test loss: 82.64400 accuracy: 0.98208
+Saving Model in checkpoints/atischeckpoint_29
+[31, 10] loss: 77.190720
+[31, 20] loss: 76.861389
+[31, 30] loss: 75.434647
+Epoch: 31 Validation loss: 91.41367 accuracy: 0.97600
+Epoch: 31 Test loss: 82.52579 accuracy: 0.98208
+Saving Model in checkpoints/atischeckpoint_30
+[32, 10] loss: 74.677292
+[32, 20] loss: 71.531158
+[32, 30] loss: 72.189079
+Epoch: 32 Validation loss: 88.47858 accuracy: 0.97600
+Epoch: 32 Test loss: 81.08341 accuracy: 0.98208
+Saving Model in checkpoints/atischeckpoint_31
+[33, 10] loss: 69.751564
+[33, 20] loss: 76.402733
+[33, 30] loss: 73.727188
+Epoch: 33 Validation loss: 93.46705 accuracy: 0.97600
+Epoch: 33 Test loss: 85.91251 accuracy: 0.98208
+Saving Model in checkpoints/atischeckpoint_32
+[34, 10] loss: 80.240685
+[34, 20] loss: 77.459717
+[34, 30] loss: 74.406273
+Epoch: 34 Validation loss: 97.00135 accuracy: 0.97800
+Epoch: 34 Test loss: 84.26158 accuracy: 0.98320
+Saving Model in checkpoints/atischeckpoint_33
+[35, 10] loss: 77.175964
+[35, 20] loss: 77.969261
+[35, 30] loss: 77.952095
+Epoch: 35 Validation loss: 97.54947 accuracy: 0.97800
+Epoch: 35 Test loss: 84.64928 accuracy: 0.98320
+Saving Model in checkpoints/atischeckpoint_34
+[36, 10] loss: 77.861610
+[36, 20] loss: 76.924103
+[36, 30] loss: 77.433029
+Epoch: 36 Validation loss: 93.81506 accuracy: 0.97800
+Epoch: 36 Test loss: 81.09061 accuracy: 0.98320
+Saving Model in checkpoints/atischeckpoint_35
+[37, 10] loss: 75.052002
+[37, 20] loss: 72.710686
+[37, 30] loss: 73.545792
+Epoch: 37 Validation loss: 91.13895 accuracy: 0.97800
+Epoch: 37 Test loss: 78.92216 accuracy: 0.98320
+Epoch 00037: reducing learning rate of group 0 to 2.5000e-05.
+Saving Model in checkpoints/atischeckpoint_36
+[38, 10] loss: 69.405243
+[38, 20] loss: 72.653404
+[38, 30] loss: 69.028961
+Epoch: 38 Validation loss: 89.14035 accuracy: 0.97800
+Epoch: 38 Test loss: 77.15047 accuracy: 0.98320
+Saving Model in checkpoints/atischeckpoint_37
+[39, 10] loss: 71.185631
+[39, 20] loss: 70.904259
+[39, 30] loss: 70.532234
+Epoch: 39 Validation loss: 92.09932 accuracy: 0.97800
+Epoch: 39 Test loss: 80.42285 accuracy: 0.98320
+Saving Model in checkpoints/atischeckpoint_38
+[40, 10] loss: 73.057487
+[40, 20] loss: 71.648254
+[40, 30] loss: 69.808777
+Epoch: 40 Validation loss: 90.86926 accuracy: 0.97800
+Epoch: 40 Test loss: 78.78772 accuracy: 0.98320
+Saving Model in checkpoints/atischeckpoint_39
+[41, 10] loss: 70.603554
+[41, 20] loss: 72.026268
+[41, 30] loss: 72.211060
+Epoch: 41 Validation loss: 89.03559 accuracy: 0.97800
+Epoch: 41 Test loss: 76.27742 accuracy: 0.98320
+Saving Model in checkpoints/atischeckpoint_40
+Early Stopping the training
+Finished Training
+Saving Model in checkpoints/atisfinal
+Val loss = 89.03559112548828 	 Val accuracy = 0.9780000448226929
+Test loss = 76.27742004394531 	 Test accuracy = 0.9832026958465576
+
+
+Choosing checkpoints/atischeckpoint_4

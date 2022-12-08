@@ -1,0 +1,72 @@
+Using device:  cuda
+Using 20 CPU cores
+Training new model  <class 'model.TorchGRUIntent'>
+Started Training of BERT_TGRU_2b_mha
+[1, 100] loss: 2.101970
+[1, 200] loss: 1.125826
+[1, 300] loss: 0.957362
+Epoch: 1 Validation loss: 0.76948 accuracy: 0.78800
+Saving Model in checkpoints/BERT_TGRU_2b_mhacheckpoint_best
+[2, 100] loss: 0.691118
+[2, 200] loss: 0.665465
+[2, 300] loss: 0.630438
+Epoch: 2 Validation loss: 0.63438 accuracy: 0.81997
+Saving Model in checkpoints/BERT_TGRU_2b_mhacheckpoint_best
+[3, 100] loss: 0.455265
+[3, 200] loss: 0.536881
+[3, 300] loss: 0.504918
+Epoch: 3 Validation loss: 0.62797 accuracy: 0.82636
+Saving Model in checkpoints/BERT_TGRU_2b_mhacheckpoint_best
+[4, 100] loss: 0.398162
+[4, 200] loss: 0.386213
+[4, 300] loss: 0.413005
+Epoch: 4 Validation loss: 0.58373 accuracy: 0.84161
+Saving Model in checkpoints/BERT_TGRU_2b_mhacheckpoint_best
+[5, 100] loss: 0.310541
+[5, 200] loss: 0.330016
+[5, 300] loss: 0.334405
+Epoch: 5 Validation loss: 0.57543 accuracy: 0.84850
+Saving Model in checkpoints/BERT_TGRU_2b_mhacheckpoint_best
+[6, 100] loss: 0.251300
+[6, 200] loss: 0.256935
+[6, 300] loss: 0.324500
+Epoch: 6 Validation loss: 0.57764 accuracy: 0.84948
+[7, 100] loss: 0.214497
+[7, 200] loss: 0.229937
+[7, 300] loss: 0.223891
+Epoch: 7 Validation loss: 0.63353 accuracy: 0.84063
+[8, 100] loss: 0.169704
+[8, 200] loss: 0.173587
+[8, 300] loss: 0.209493
+Epoch: 8 Validation loss: 0.63415 accuracy: 0.84702
+[9, 100] loss: 0.130594
+[9, 200] loss: 0.137673
+[9, 300] loss: 0.167636
+Epoch: 9 Validation loss: 0.63388 accuracy: 0.84161
+[10, 100] loss: 0.146421
+[10, 200] loss: 0.139213
+[10, 300] loss: 0.164620
+Epoch: 10 Validation loss: 0.70069 accuracy: 0.84653
+Epoch 00010: reducing learning rate of group 0 to 5.0000e-04.
+Saving Model in checkpoints/BERT_TGRU_2b_mhacheckpoint_9
+[11, 100] loss: 0.091422
+[11, 200] loss: 0.068579
+[11, 300] loss: 0.069000
+Epoch: 11 Validation loss: 0.62549 accuracy: 0.85834
+[12, 100] loss: 0.053140
+[12, 200] loss: 0.046955
+[12, 300] loss: 0.052674
+Epoch: 12 Validation loss: 0.64361 accuracy: 0.85834
+[13, 100] loss: 0.047694
+[13, 200] loss: 0.056787
+[13, 300] loss: 0.057194
+Epoch: 13 Validation loss: 0.62357 accuracy: 0.86572
+[14, 100] loss: 0.047967
+[14, 200] loss: 0.046246
+[14, 300] loss: 0.050294
+Epoch: 14 Validation loss: 0.63748 accuracy: 0.86326
+Early Stopping the training
+Finished Training
+Saving Model in checkpoints/BERT_TGRU_2b_mhafinal
+Val loss = 0.6374809741973877 	 Val accuracy = 0.8632562160491943
+Test loss = 0.6341097354888916 	 Test accuracy = 0.8691996932029724

@@ -1,0 +1,101 @@
+Using device:  cuda
+Using 15 CPU cores
+Training new model  <class 'model.TransformerIntent'>
+Started Training of BERT_Transformer_atis
+[1, 100] loss: 0.074448
+Epoch: 1 Validation loss: 0.04607 accuracy: 0.86481
+Saving Model in checkpoints/BERT_Transformer_atischeckpoint_best
+[2, 100] loss: 0.032839
+Epoch: 2 Validation loss: 0.02677 accuracy: 0.92445
+Saving Model in checkpoints/BERT_Transformer_atischeckpoint_best
+[3, 100] loss: 0.021454
+Epoch: 3 Validation loss: 0.01941 accuracy: 0.93439
+Saving Model in checkpoints/BERT_Transformer_atischeckpoint_best
+[4, 100] loss: 0.020713
+Epoch: 4 Validation loss: 0.02210 accuracy: 0.93042
+[5, 100] loss: 0.019555
+Epoch: 5 Validation loss: 0.02021 accuracy: 0.94433
+[6, 100] loss: 0.014945
+Epoch: 6 Validation loss: 0.01623 accuracy: 0.96024
+Saving Model in checkpoints/BERT_Transformer_atischeckpoint_best
+[7, 100] loss: 0.012030
+Epoch: 7 Validation loss: 0.01736 accuracy: 0.94433
+[8, 100] loss: 0.011295
+Epoch: 8 Validation loss: 0.01519 accuracy: 0.96223
+Saving Model in checkpoints/BERT_Transformer_atischeckpoint_best
+[9, 100] loss: 0.010498
+Epoch: 9 Validation loss: 0.01545 accuracy: 0.95626
+[10, 100] loss: 0.010134
+Epoch: 10 Validation loss: 0.01453 accuracy: 0.96421
+Saving Model in checkpoints/BERT_Transformer_atischeckpoint_best
+[11, 100] loss: 0.010100
+Epoch: 11 Validation loss: 0.01998 accuracy: 0.93837
+[12, 100] loss: 0.010452
+Epoch: 12 Validation loss: 0.01530 accuracy: 0.96223
+[13, 100] loss: 0.008700
+Epoch: 13 Validation loss: 0.01239 accuracy: 0.96819
+Saving Model in checkpoints/BERT_Transformer_atischeckpoint_best
+[14, 100] loss: 0.010606
+Epoch: 14 Validation loss: 0.01291 accuracy: 0.97614
+[15, 100] loss: 0.008823
+Epoch: 15 Validation loss: 0.01264 accuracy: 0.96620
+[16, 100] loss: 0.007808
+Epoch: 16 Validation loss: 0.01906 accuracy: 0.95626
+[17, 100] loss: 0.009947
+Epoch: 17 Validation loss: 0.01387 accuracy: 0.96223
+[18, 100] loss: 0.008725
+Epoch: 18 Validation loss: 0.01268 accuracy: 0.96223
+Epoch 00018: reducing learning rate of group 0 to 5.0000e-04.
+[19, 100] loss: 0.006215
+Epoch: 19 Validation loss: 0.01079 accuracy: 0.97217
+Saving Model in checkpoints/BERT_Transformer_atischeckpoint_best
+[20, 100] loss: 0.005190
+Epoch: 20 Validation loss: 0.01062 accuracy: 0.96620
+Saving Model in checkpoints/BERT_Transformer_atischeckpoint_best
+[21, 100] loss: 0.004188
+Epoch: 21 Validation loss: 0.01252 accuracy: 0.97018
+[22, 100] loss: 0.003940
+Epoch: 22 Validation loss: 0.01155 accuracy: 0.96819
+[23, 100] loss: 0.003541
+Epoch: 23 Validation loss: 0.01765 accuracy: 0.96421
+[24, 100] loss: 0.004423
+Epoch: 24 Validation loss: 0.01437 accuracy: 0.96819
+[25, 100] loss: 0.004106
+Epoch: 25 Validation loss: 0.01263 accuracy: 0.96819
+Epoch 00025: reducing learning rate of group 0 to 2.5000e-04.
+[26, 100] loss: 0.003312
+Epoch: 26 Validation loss: 0.01339 accuracy: 0.96819
+[27, 100] loss: 0.002729
+Epoch: 27 Validation loss: 0.01377 accuracy: 0.97018
+[28, 100] loss: 0.002471
+Epoch: 28 Validation loss: 0.01104 accuracy: 0.97018
+[29, 100] loss: 0.002731
+Epoch: 29 Validation loss: 0.00969 accuracy: 0.97416
+Saving Model in checkpoints/BERT_Transformer_atischeckpoint_best
+[30, 100] loss: 0.002002
+Epoch: 30 Validation loss: 0.00868 accuracy: 0.97614
+Saving Model in checkpoints/BERT_Transformer_atischeckpoint_best
+[31, 100] loss: 0.002410
+Epoch: 31 Validation loss: 0.01111 accuracy: 0.97018
+[32, 100] loss: 0.003136
+Epoch: 32 Validation loss: 0.01356 accuracy: 0.96421
+[33, 100] loss: 0.002126
+Epoch: 33 Validation loss: 0.01115 accuracy: 0.97018
+[34, 100] loss: 0.001871
+Epoch: 34 Validation loss: 0.01136 accuracy: 0.97416
+[35, 100] loss: 0.003188
+Epoch: 35 Validation loss: 0.01089 accuracy: 0.97416
+Epoch 00035: reducing learning rate of group 0 to 1.2500e-04.
+[36, 100] loss: 0.002051
+Epoch: 36 Validation loss: 0.01072 accuracy: 0.97813
+[37, 100] loss: 0.002229
+Epoch: 37 Validation loss: 0.01245 accuracy: 0.97217
+[38, 100] loss: 0.001452
+Epoch: 38 Validation loss: 0.01063 accuracy: 0.97416
+[39, 100] loss: 0.002117
+Epoch: 39 Validation loss: 0.01176 accuracy: 0.97416
+Early Stopping the training
+Finished Training
+Saving Model in checkpoints/BERT_Transformer_atisfinal
+Val loss = 0.011760344728827477 	 Val accuracy = tensor([0.9742], device='cuda:0')
+Test loss = 0.014560090377926826 	 Test accuracy = tensor([0.9658], device='cuda:0')

@@ -1,0 +1,4 @@
+Using device:  cuda
+Using 20 CPU cores
+Training new model  <class 'model.TorchGRUDiff'>
+Started Training of TGRU_1b

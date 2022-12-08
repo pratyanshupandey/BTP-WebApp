@@ -1,0 +1,88 @@
+Using device:  cuda
+Using 20 CPU cores
+Training new model  <class 'model.TorchGRU'>
+Started Training of TGRU_2b_atis
+[1, 100] loss: 0.49151
+Epoch: 1 Validation loss: 0.05549 accuracy: 0.97394
+[2, 100] loss: 0.05572
+Epoch: 2 Validation loss: 0.02309 accuracy: 0.98771
+[3, 100] loss: 0.02603
+Epoch: 3 Validation loss: 0.01401 accuracy: 0.99246
+[4, 100] loss: 0.01452
+Epoch: 4 Validation loss: 0.00948 accuracy: 0.99520
+[5, 100] loss: 0.00957
+Epoch: 5 Validation loss: 0.00785 accuracy: 0.99577
+[6, 100] loss: 0.00689
+Epoch: 6 Validation loss: 0.00708 accuracy: 0.99543
+[7, 100] loss: 0.00459
+Epoch: 7 Validation loss: 0.00637 accuracy: 0.99606
+[8, 100] loss: 0.00348
+Epoch: 8 Validation loss: 0.00623 accuracy: 0.99589
+[9, 100] loss: 0.00197
+Epoch: 9 Validation loss: 0.00656 accuracy: 0.99600
+[10, 100] loss: 0.00155
+Epoch: 10 Validation loss: 0.00584 accuracy: 0.99657
+Saving Model in checkpoints/TGRU_2b_atischeckpoint_9
+[11, 100] loss: 0.00142
+Epoch: 11 Validation loss: 0.00575 accuracy: 0.99669
+[12, 100] loss: 0.00098
+Epoch: 12 Validation loss: 0.00579 accuracy: 0.99669
+[13, 100] loss: 0.00048
+Epoch: 13 Validation loss: 0.00566 accuracy: 0.99674
+[14, 100] loss: 0.00046
+Epoch: 14 Validation loss: 0.00560 accuracy: 0.99686
+[15, 100] loss: 0.00028
+Epoch: 15 Validation loss: 0.00559 accuracy: 0.99680
+[16, 100] loss: 0.00025
+Epoch: 16 Validation loss: 0.00571 accuracy: 0.99691
+[17, 100] loss: 0.00020
+Epoch: 17 Validation loss: 0.00582 accuracy: 0.99691
+[18, 100] loss: 0.00024
+Epoch: 18 Validation loss: 0.00576 accuracy: 0.99709
+[19, 100] loss: 0.00018
+Epoch: 19 Validation loss: 0.00569 accuracy: 0.99686
+[20, 100] loss: 0.00014
+Epoch: 20 Validation loss: 0.00550 accuracy: 0.99703
+Saving Model in checkpoints/TGRU_2b_atischeckpoint_19
+[21, 100] loss: 0.00013
+Epoch: 21 Validation loss: 0.00558 accuracy: 0.99691
+[22, 100] loss: 0.00014
+Epoch: 22 Validation loss: 0.00570 accuracy: 0.99680
+[23, 100] loss: 0.00015
+Epoch: 23 Validation loss: 0.00619 accuracy: 0.99674
+[24, 100] loss: 0.00182
+Epoch: 24 Validation loss: 0.00877 accuracy: 0.99537
+[25, 100] loss: 0.00335
+Epoch: 25 Validation loss: 0.00620 accuracy: 0.99600
+Epoch 00025: reducing learning rate of group 0 to 5.0000e-04.
+[26, 100] loss: 0.00085
+Epoch: 26 Validation loss: 0.00570 accuracy: 0.99680
+[27, 100] loss: 0.00022
+Epoch: 27 Validation loss: 0.00542 accuracy: 0.99686
+[28, 100] loss: 0.00009
+Epoch: 28 Validation loss: 0.00545 accuracy: 0.99697
+[29, 100] loss: 0.00011
+Epoch: 29 Validation loss: 0.00550 accuracy: 0.99697
+[30, 100] loss: 0.00009
+Epoch: 30 Validation loss: 0.00555 accuracy: 0.99703
+Saving Model in checkpoints/TGRU_2b_atischeckpoint_29
+[31, 100] loss: 0.00006
+Epoch: 31 Validation loss: 0.00546 accuracy: 0.99703
+[32, 100] loss: 0.00009
+Epoch: 32 Validation loss: 0.00560 accuracy: 0.99703
+Epoch 00032: reducing learning rate of group 0 to 2.5000e-04.
+[33, 100] loss: 0.00007
+Epoch: 33 Validation loss: 0.00562 accuracy: 0.99703
+[34, 100] loss: 0.00007
+Epoch: 34 Validation loss: 0.00562 accuracy: 0.99709
+[35, 100] loss: 0.00006
+Epoch: 35 Validation loss: 0.00565 accuracy: 0.99709
+[36, 100] loss: 0.00006
+Epoch: 36 Validation loss: 0.00566 accuracy: 0.99709
+Early Stopping the training
+Finished Training
+Saving Model in checkpoints/TGRU_2b_atisfinal
+Test loss = 0.03624404966831207 	 Test accuracy = 0.9929078221321106
+Train - Accuracy: 0.9979404717111907
+Val - Accuracy: 0.9877257583727862
+Test - Accuracy: 0.9763203841117416

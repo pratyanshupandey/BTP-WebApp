@@ -1,0 +1,33 @@
+Using device:  cuda
+Using 10 CPU cores
+Training new model  <class 'model.TorchGRUIntent'>
+Started Training of BERT_TGRU_2b_mha_100
+Epoch: 1 Validation loss: 4.53103 accuracy: 0.73291 accuracy_scn: 0.00000
+Saving Model in checkpoints/BERT_TGRU_2b_mha_100checkpoint_best
+Epoch: 2 Validation loss: 4.16551 accuracy: 0.80275 accuracy_scn: 0.00000
+Saving Model in checkpoints/BERT_TGRU_2b_mha_100checkpoint_best
+Epoch: 3 Validation loss: 4.08898 accuracy: 0.81456 accuracy_scn: 0.00000
+Saving Model in checkpoints/BERT_TGRU_2b_mha_100checkpoint_best
+Epoch: 4 Validation loss: 4.08602 accuracy: 0.82735 accuracy_scn: 0.00000
+Saving Model in checkpoints/BERT_TGRU_2b_mha_100checkpoint_best
+Epoch: 5 Validation loss: 4.02223 accuracy: 0.83866 accuracy_scn: 0.00000
+Saving Model in checkpoints/BERT_TGRU_2b_mha_100checkpoint_best
+Epoch: 6 Validation loss: 4.02798 accuracy: 0.83965 accuracy_scn: 0.00000
+Epoch: 7 Validation loss: 3.98611 accuracy: 0.84850 accuracy_scn: 0.00000
+Saving Model in checkpoints/BERT_TGRU_2b_mha_100checkpoint_best
+Epoch: 8 Validation loss: 4.00090 accuracy: 0.84899 accuracy_scn: 0.00000
+Epoch: 9 Validation loss: 4.02890 accuracy: 0.84555 accuracy_scn: 0.00000
+Epoch: 10 Validation loss: 4.04233 accuracy: 0.85785 accuracy_scn: 0.00000
+Saving Model in checkpoints/BERT_TGRU_2b_mha_100checkpoint_9
+Epoch: 11 Validation loss: 4.04121 accuracy: 0.85588 accuracy_scn: 0.00000
+Epoch: 12 Validation loss: 4.02460 accuracy: 0.85489 accuracy_scn: 0.00000
+Epoch 00012: reducing learning rate of group 0 to 5.0000e-04.
+Epoch: 13 Validation loss: 4.01396 accuracy: 0.86818 accuracy_scn: 0.00000
+Epoch: 14 Validation loss: 4.04853 accuracy: 0.86621 accuracy_scn: 0.00000
+Epoch: 15 Validation loss: 4.05273 accuracy: 0.86621 accuracy_scn: 0.00000
+Epoch: 16 Validation loss: 4.09986 accuracy: 0.86670 accuracy_scn: 0.00000
+Early Stopping the training
+Finished Training
+Saving Model in checkpoints/BERT_TGRU_2b_mha_100final
+Val loss = 4.099856376647949 	 Val accuracy = 0.8666993975639343 accuracy_scn = 0
+Test loss = 4.070137977600098 	 Test accuracy = 0.8631472587585449 accuracy_scn = 0

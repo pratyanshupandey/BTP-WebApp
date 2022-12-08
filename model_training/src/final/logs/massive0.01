@@ -1,0 +1,188 @@
+Using device:  cuda
+Using 10 CPU cores
+Training new model  <class 'model.IntentModel'>
+Started Training of massive0.01
+[1, 10] loss: 45.329613
+[1, 20] loss: 44.532513
+[1, 30] loss: 41.146557
+[1, 40] loss: 39.961758
+[1, 50] loss: 37.132198
+[1, 60] loss: 36.659561
+[1, 70] loss: 35.719307
+[1, 80] loss: 35.578182
+[1, 90] loss: 36.842098
+Epoch: 1 Validation loss: 39.34505 accuracy: 0.87359
+Epoch: 1 Test loss: 40.07083 accuracy: 0.86886
+Saving Model in checkpoints/massive0.01checkpoint_0
+[2, 10] loss: 32.171890
+[2, 20] loss: 31.141788
+[2, 30] loss: 31.278524
+[2, 40] loss: 30.666859
+[2, 50] loss: 34.034420
+[2, 60] loss: 32.169827
+[2, 70] loss: 30.791483
+[2, 80] loss: 31.522324
+[2, 90] loss: 29.746195
+Epoch: 2 Validation loss: 38.12511 accuracy: 0.87063
+Epoch: 2 Test loss: 38.43901 accuracy: 0.87962
+Saving Model in checkpoints/massive0.01checkpoint_1
+[3, 10] loss: 28.123259
+[3, 20] loss: 28.142323
+[3, 30] loss: 27.964926
+[3, 40] loss: 27.742178
+[3, 50] loss: 27.344976
+[3, 60] loss: 28.119093
+[3, 70] loss: 27.392424
+[3, 80] loss: 29.054243
+[3, 90] loss: 28.797348
+Epoch: 3 Validation loss: 38.18513 accuracy: 0.88244
+Epoch: 3 Test loss: 38.48599 accuracy: 0.87929
+Saving Model in checkpoints/massive0.01checkpoint_2
+[4, 10] loss: 25.613297
+[4, 20] loss: 26.016470
+[4, 30] loss: 25.782322
+[4, 40] loss: 25.636148
+[4, 50] loss: 26.208927
+[4, 60] loss: 26.629942
+[4, 70] loss: 26.204395
+[4, 80] loss: 24.989491
+[4, 90] loss: 25.942616
+Epoch: 4 Validation loss: 38.17480 accuracy: 0.88687
+Epoch: 4 Test loss: 38.27430 accuracy: 0.88164
+Saving Model in checkpoints/massive0.01checkpoint_3
+[5, 10] loss: 24.281563
+[5, 20] loss: 24.251072
+[5, 30] loss: 23.978018
+[5, 40] loss: 24.178862
+[5, 50] loss: 23.775045
+[5, 60] loss: 24.111904
+[5, 70] loss: 23.766478
+[5, 80] loss: 23.922209
+[5, 90] loss: 23.800611
+Epoch: 5 Validation loss: 36.62534 accuracy: 0.88588
+Epoch: 5 Test loss: 36.83100 accuracy: 0.88399
+Saving Model in checkpoints/massive0.01checkpoint_4
+[6, 10] loss: 21.628326
+[6, 20] loss: 21.298515
+[6, 30] loss: 22.279074
+[6, 40] loss: 21.780611
+[6, 50] loss: 22.779999
+[6, 60] loss: 22.823214
+[6, 70] loss: 22.694662
+[6, 80] loss: 22.007862
+[6, 90] loss: 22.857105
+Epoch: 6 Validation loss: 36.91330 accuracy: 0.88293
+Epoch: 6 Test loss: 36.46591 accuracy: 0.87929
+Saving Model in checkpoints/massive0.01checkpoint_5
+[7, 10] loss: 21.191069
+[7, 20] loss: 21.208929
+[7, 30] loss: 21.445101
+[7, 40] loss: 22.094172
+[7, 50] loss: 21.552677
+[7, 60] loss: 21.818541
+[7, 70] loss: 22.341276
+[7, 80] loss: 22.024612
+[7, 90] loss: 21.793745
+Epoch: 7 Validation loss: 36.50254 accuracy: 0.88736
+Epoch: 7 Test loss: 36.60477 accuracy: 0.88164
+Saving Model in checkpoints/massive0.01checkpoint_6
+[8, 10] loss: 20.485764
+[8, 20] loss: 21.185951
+[8, 30] loss: 20.686926
+[8, 40] loss: 20.337225
+[8, 50] loss: 20.888548
+[8, 60] loss: 22.594397
+[8, 70] loss: 22.457794
+[8, 80] loss: 23.168581
+[8, 90] loss: 22.702391
+Epoch: 8 Validation loss: 36.54181 accuracy: 0.88244
+Epoch: 8 Test loss: 36.98457 accuracy: 0.87895
+Saving Model in checkpoints/massive0.01checkpoint_7
+[9, 10] loss: 21.275146
+[9, 20] loss: 20.494848
+[9, 30] loss: 20.815142
+[9, 40] loss: 20.548044
+[9, 50] loss: 20.385696
+[9, 60] loss: 20.601944
+[9, 70] loss: 22.556646
+[9, 80] loss: 22.166491
+[9, 90] loss: 23.133669
+Epoch: 9 Validation loss: 37.99611 accuracy: 0.87850
+Epoch: 9 Test loss: 38.06104 accuracy: 0.87122
+Saving Model in checkpoints/massive0.01checkpoint_8
+[10, 10] loss: 23.010298
+[10, 20] loss: 22.612120
+[10, 30] loss: 22.543755
+[10, 40] loss: 22.111563
+[10, 50] loss: 21.825613
+[10, 60] loss: 21.166004
+[10, 70] loss: 20.887835
+[10, 80] loss: 21.057188
+[10, 90] loss: 20.778915
+Epoch: 10 Validation loss: 36.07237 accuracy: 0.87211
+Epoch: 10 Test loss: 36.32442 accuracy: 0.87323
+Saving Model in checkpoints/massive0.01checkpoint_9
+[11, 10] loss: 20.541180
+[11, 20] loss: 20.515842
+[11, 30] loss: 20.071054
+[11, 40] loss: 19.948269
+[11, 50] loss: 20.056410
+[11, 60] loss: 19.519199
+[11, 70] loss: 19.841150
+[11, 80] loss: 21.072363
+[11, 90] loss: 21.715879
+Epoch: 11 Validation loss: 36.76399 accuracy: 0.87998
+Epoch: 11 Test loss: 37.39764 accuracy: 0.87727
+Saving Model in checkpoints/massive0.01checkpoint_10
+[12, 10] loss: 21.245752
+[12, 20] loss: 21.399273
+[12, 30] loss: 21.472794
+[12, 40] loss: 20.344778
+[12, 50] loss: 19.807480
+[12, 60] loss: 19.438181
+[12, 70] loss: 20.240030
+[12, 80] loss: 20.644320
+[12, 90] loss: 20.126642
+Epoch: 12 Validation loss: 35.58359 accuracy: 0.89031
+Epoch: 12 Test loss: 36.21919 accuracy: 0.88063
+Saving Model in checkpoints/massive0.01checkpoint_11
+[13, 10] loss: 20.181120
+[13, 20] loss: 19.496820
+[13, 30] loss: 19.716116
+[13, 40] loss: 19.680021
+[13, 50] loss: 19.851107
+[13, 60] loss: 20.319050
+[13, 70] loss: 19.283075
+[13, 80] loss: 20.346645
+[13, 90] loss: 20.503139
+Epoch: 13 Validation loss: 35.78664 accuracy: 0.88441
+Epoch: 13 Test loss: 35.88797 accuracy: 0.87727
+Saving Model in checkpoints/massive0.01checkpoint_12
+[14, 10] loss: 19.828878
+[14, 20] loss: 18.280897
+[14, 30] loss: 20.169762
+[14, 40] loss: 20.266348
+[14, 50] loss: 21.083981
+[14, 60] loss: 20.365860
+[14, 70] loss: 18.881094
+[14, 80] loss: 19.610128
+[14, 90] loss: 19.780649
+Epoch: 14 Validation loss: 36.37515 accuracy: 0.87408
+Epoch: 14 Test loss: 36.79003 accuracy: 0.86785
+Saving Model in checkpoints/massive0.01checkpoint_13
+[15, 10] loss: 19.012400
+[15, 20] loss: 19.949467
+[15, 30] loss: 20.006433
+[15, 40] loss: 20.320808
+[15, 50] loss: 19.898277
+[15, 60] loss: 20.088552
+[15, 70] loss: 19.251999
+[15, 80] loss: 20.207819
+[15, 90] loss: 19.955900
+Epoch: 15 Validation loss: 36.56318 accuracy: 0.88687
+Epoch: 15 Test loss: 37.54966 accuracy: 0.86785
+Saving Model in checkpoints/massive0.01checkpoint_14
+[16, 10] loss: 19.672516
+[16, 20] loss: 20.447996
+[16, 30] loss: 18.448048
+[16, 40] loss: 19.578947

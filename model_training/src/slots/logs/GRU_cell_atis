@@ -1,0 +1,64 @@
+Using device:  cuda
+Using 20 CPU cores
+Training new model  <class 'model.LanguageModelGRU'>
+Started Training of GRU_cell_atis
+[1, 100] loss: 0.72271
+Epoch: 1 Validation loss: 0.12201 accuracy: 0.39274
+[2, 100] loss: 0.13292
+Epoch: 2 Validation loss: 0.05772 accuracy: 0.26246
+[3, 100] loss: 0.06891
+Epoch: 3 Validation loss: 0.03736 accuracy: 0.22349
+[4, 100] loss: 0.04631
+Epoch: 4 Validation loss: 0.02785 accuracy: 0.19309
+[5, 100] loss: 0.03393
+Epoch: 5 Validation loss: 0.02205 accuracy: 0.17989
+[6, 100] loss: 0.02587
+Epoch: 6 Validation loss: 0.01792 accuracy: 0.16394
+[7, 100] loss: 0.02010
+Epoch: 7 Validation loss: 0.01531 accuracy: 0.15846
+[8, 100] loss: 0.01524
+Epoch: 8 Validation loss: 0.01374 accuracy: 0.15686
+[9, 100] loss: 0.01262
+Epoch: 9 Validation loss: 0.01194 accuracy: 0.15114
+[10, 100] loss: 0.01025
+Epoch: 10 Validation loss: 0.01099 accuracy: 0.15017
+Saving Model in checkpoints/GRU_cell_atischeckpoint_9
+[11, 100] loss: 0.00860
+Epoch: 11 Validation loss: 0.01025 accuracy: 0.14840
+[12, 100] loss: 0.00733
+Epoch: 12 Validation loss: 0.00987 accuracy: 0.14611
+[13, 100] loss: 0.00609
+Epoch: 13 Validation loss: 0.00947 accuracy: 0.14663
+[14, 100] loss: 0.00548
+Epoch: 14 Validation loss: 0.00909 accuracy: 0.14583
+[15, 100] loss: 0.00455
+Epoch: 15 Validation loss: 0.00915 accuracy: 0.14286
+[16, 100] loss: 0.00401
+Epoch: 16 Validation loss: 0.00905 accuracy: 0.13880
+[17, 100] loss: 0.00345
+Epoch: 17 Validation loss: 0.00918 accuracy: 0.14097
+[18, 100] loss: 0.00291
+Epoch: 18 Validation loss: 0.00918 accuracy: 0.14051
+[19, 100] loss: 0.00266
+Epoch: 19 Validation loss: 0.00908 accuracy: 0.13514
+[20, 100] loss: 0.00220
+Epoch: 20 Validation loss: 0.00918 accuracy: 0.13366
+Saving Model in checkpoints/GRU_cell_atischeckpoint_19
+[21, 100] loss: 0.00190
+Epoch: 21 Validation loss: 0.00927 accuracy: 0.13514
+Epoch 00021: reducing learning rate of group 0 to 5.0000e-04.
+[22, 100] loss: 0.00171
+Epoch: 22 Validation loss: 0.00915 accuracy: 0.13086
+[23, 100] loss: 0.00150
+Epoch: 23 Validation loss: 0.00949 accuracy: 0.12989
+[24, 100] loss: 0.00149
+Epoch: 24 Validation loss: 0.00932 accuracy: 0.13011
+[25, 100] loss: 0.00136
+Epoch: 25 Validation loss: 0.00931 accuracy: 0.12994
+Early Stopping the training
+Finished Training
+Saving Model in checkpoints/GRU_cell_atisfinal
+Test loss = 0.03443382307887077 	 Test accuracy = 0.11213139444589615
+Train - Accuracy: 0.9989900390122185
+Val - Accuracy: 0.9843941785025425
+Test - Accuracy: 0.9731558271497163

@@ -1,0 +1,93 @@
+Using device:  cuda
+Using 20 CPU cores
+Training new model  <class 'model.LanguageModelGRU'>
+Started Training of RNN_cell_snips
+[1, 100] loss: 0.99011
+[1, 200] loss: 0.39342
+[1, 300] loss: 0.23298
+[1, 400] loss: 0.15973
+Epoch: 1 Validation loss: 0.15013 accuracy: 0.23416
+[2, 100] loss: 0.12245
+[2, 200] loss: 0.10662
+[2, 300] loss: 0.09365
+[2, 400] loss: 0.08227
+Epoch: 2 Validation loss: 0.09273 accuracy: 0.22338
+[3, 100] loss: 0.07054
+[3, 200] loss: 0.06423
+[3, 300] loss: 0.06545
+[3, 400] loss: 0.06038
+Epoch: 3 Validation loss: 0.08037 accuracy: 0.21214
+[4, 100] loss: 0.05096
+[4, 200] loss: 0.05171
+[4, 300] loss: 0.04751
+[4, 400] loss: 0.05044
+Epoch: 4 Validation loss: 0.07437 accuracy: 0.19825
+[5, 100] loss: 0.04037
+[5, 200] loss: 0.04288
+[5, 300] loss: 0.04059
+[5, 400] loss: 0.04028
+Epoch: 5 Validation loss: 0.07151 accuracy: 0.19286
+[6, 100] loss: 0.03310
+[6, 200] loss: 0.03484
+[6, 300] loss: 0.03441
+[6, 400] loss: 0.03405
+Epoch: 6 Validation loss: 0.07478 accuracy: 0.19403
+[7, 100] loss: 0.02794
+[7, 200] loss: 0.02816
+[7, 300] loss: 0.02783
+[7, 400] loss: 0.03117
+Epoch: 7 Validation loss: 0.06880 accuracy: 0.18786
+[8, 100] loss: 0.02473
+[8, 200] loss: 0.02507
+[8, 300] loss: 0.02510
+[8, 400] loss: 0.02678
+Epoch: 8 Validation loss: 0.07036 accuracy: 0.18597
+[9, 100] loss: 0.02039
+[9, 200] loss: 0.02190
+[9, 300] loss: 0.02188
+[9, 400] loss: 0.02277
+Epoch: 9 Validation loss: 0.07239 accuracy: 0.19065
+[10, 100] loss: 0.01830
+[10, 200] loss: 0.01799
+[10, 300] loss: 0.01978
+[10, 400] loss: 0.01921
+Epoch: 10 Validation loss: 0.07430 accuracy: 0.17942
+Saving Model in checkpoints/RNN_cell_snipscheckpoint_9
+[11, 100] loss: 0.01578
+[11, 200] loss: 0.01650
+[11, 300] loss: 0.01688
+[11, 400] loss: 0.01706
+Epoch: 11 Validation loss: 0.07406 accuracy: 0.17617
+[12, 100] loss: 0.01454
+[12, 200] loss: 0.01427
+[12, 300] loss: 0.01550
+[12, 400] loss: 0.01622
+Epoch: 12 Validation loss: 0.07450 accuracy: 0.17253
+Epoch 00012: reducing learning rate of group 0 to 5.0000e-04.
+[13, 100] loss: 0.01193
+[13, 200] loss: 0.01166
+[13, 300] loss: 0.01220
+[13, 400] loss: 0.01288
+Epoch: 13 Validation loss: 0.07382 accuracy: 0.17279
+[14, 100] loss: 0.01120
+[14, 200] loss: 0.01069
+[14, 300] loss: 0.01128
+[14, 400] loss: 0.01162
+Epoch: 14 Validation loss: 0.07805 accuracy: 0.17688
+[15, 100] loss: 0.00985
+[15, 200] loss: 0.01016
+[15, 300] loss: 0.01115
+[15, 400] loss: 0.01166
+Epoch: 15 Validation loss: 0.07700 accuracy: 0.17201
+[16, 100] loss: 0.01011
+[16, 200] loss: 0.01035
+[16, 300] loss: 0.01054
+[16, 400] loss: 0.01064
+Epoch: 16 Validation loss: 0.08119 accuracy: 0.16922
+Early Stopping the training
+Finished Training
+Saving Model in checkpoints/RNN_cell_snipsfinal
+Test loss = 0.06121141463518143 	 Test accuracy = 0.2055952399969101
+Train - Accuracy: 0.9882667799490229
+Val - Accuracy: 0.93781328320802
+Test - Accuracy: 0.936418004406673

@@ -1,0 +1,55 @@
+Using device:  cuda
+Using 15 CPU cores
+Training new model  <class 'model.TorchGRUIntent'>
+Started Training of BERT_TGRU_b_atis
+[1, 100] loss: 0.08814
+Epoch: 1 Validation loss: 0.04106 accuracy: 0.86481
+[2, 100] loss: 0.02531
+Epoch: 2 Validation loss: 0.02109 accuracy: 0.93439
+[3, 100] loss: 0.01470
+Epoch: 3 Validation loss: 0.01506 accuracy: 0.95626
+[4, 100] loss: 0.00856
+Epoch: 4 Validation loss: 0.01474 accuracy: 0.96223
+[5, 100] loss: 0.00612
+Epoch: 5 Validation loss: 0.01443 accuracy: 0.97018
+[6, 100] loss: 0.00442
+Epoch: 6 Validation loss: 0.01187 accuracy: 0.96620
+[7, 100] loss: 0.00325
+Epoch: 7 Validation loss: 0.00989 accuracy: 0.97813
+[8, 100] loss: 0.00198
+Epoch: 8 Validation loss: 0.01162 accuracy: 0.97416
+[9, 100] loss: 0.00273
+Epoch: 9 Validation loss: 0.01119 accuracy: 0.97416
+[10, 100] loss: 0.00191
+Epoch: 10 Validation loss: 0.01129 accuracy: 0.97813
+[11, 100] loss: 0.00128
+Epoch: 11 Validation loss: 0.01338 accuracy: 0.97018
+[12, 100] loss: 0.00239
+Epoch: 12 Validation loss: 0.01203 accuracy: 0.97416
+Epoch 00012: reducing learning rate of group 0 to 5.0000e-04.
+[13, 100] loss: 0.00112
+Epoch: 13 Validation loss: 0.00958 accuracy: 0.97813
+[14, 100] loss: 0.00069
+Epoch: 14 Validation loss: 0.01047 accuracy: 0.97813
+[15, 100] loss: 0.00053
+Epoch: 15 Validation loss: 0.01060 accuracy: 0.97813
+[16, 100] loss: 0.00033
+Epoch: 16 Validation loss: 0.01244 accuracy: 0.97416
+[17, 100] loss: 0.00066
+Epoch: 17 Validation loss: 0.01496 accuracy: 0.96223
+[18, 100] loss: 0.00092
+Epoch: 18 Validation loss: 0.01053 accuracy: 0.97813
+Epoch 00018: reducing learning rate of group 0 to 2.5000e-04.
+[19, 100] loss: 0.00058
+Epoch: 19 Validation loss: 0.01123 accuracy: 0.97416
+[20, 100] loss: 0.00059
+Epoch: 20 Validation loss: 0.01163 accuracy: 0.97416
+[21, 100] loss: 0.00047
+Epoch: 21 Validation loss: 0.01299 accuracy: 0.97813
+[22, 100] loss: 0.00041
+Epoch: 22 Validation loss: 0.01185 accuracy: 0.97416
+Early Stopping the training
+Finished Training
+Saving Model in checkpoints/BERT_TGRU_b_atisfinal
+Val loss = 0.011847608722746372 	 Val accuracy = tensor([0.9742], device='cuda:0')
+Test loss = 0.011532268486917019 	 Test accuracy = tensor([0.9735], device='cuda:0')

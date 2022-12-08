@@ -1,0 +1,93 @@
+Using device:  cuda
+Using 8 CPU cores
+Training new model  <class 'model.TorchGRUIntent'>
+Started Training of BERT_TGRU_2b_contrast_out_128_0.1_snips
+[1, 25] loss: 6.824399
+[1, 50] loss: 4.803936
+[1, 75] loss: 4.001683
+[1, 100] loss: 3.575958
+Epoch: 1 Validation loss: 4.29874 accuracy: 0.98571
+Saving Model in checkpoints/BERT_TGRU_2b_contrast_out_128_0.1_snipscheckpoint_best
+[2, 25] loss: 3.340902
+[2, 50] loss: 3.207263
+[2, 75] loss: 3.092608
+[2, 100] loss: 3.026457
+Epoch: 2 Validation loss: 4.06495 accuracy: 0.98286
+Saving Model in checkpoints/BERT_TGRU_2b_contrast_out_128_0.1_snipscheckpoint_best
+[3, 25] loss: 2.963394
+[3, 50] loss: 2.956137
+[3, 75] loss: 3.010009
+[3, 100] loss: 2.910796
+Epoch: 3 Validation loss: 3.87802 accuracy: 0.98571
+Saving Model in checkpoints/BERT_TGRU_2b_contrast_out_128_0.1_snipscheckpoint_best
+[4, 25] loss: 2.795775
+[4, 50] loss: 2.832016
+[4, 75] loss: 2.904522
+[4, 100] loss: 2.869935
+Epoch: 4 Validation loss: 3.90159 accuracy: 0.98714
+[5, 25] loss: 2.758560
+[5, 50] loss: 2.744192
+[5, 75] loss: 2.797580
+[5, 100] loss: 2.724874
+Epoch: 5 Validation loss: 3.92287 accuracy: 0.98571
+[6, 25] loss: 2.684961
+[6, 50] loss: 2.701480
+[6, 75] loss: 2.655973
+[6, 100] loss: 2.645860
+Epoch: 6 Validation loss: 3.76639 accuracy: 0.99143
+Saving Model in checkpoints/BERT_TGRU_2b_contrast_out_128_0.1_snipscheckpoint_best
+[7, 25] loss: 2.671984
+[7, 50] loss: 2.633189
+[7, 75] loss: 2.626147
+[7, 100] loss: 2.626152
+Epoch: 7 Validation loss: 3.96139 accuracy: 0.98714
+[8, 25] loss: 2.663712
+[8, 50] loss: 2.604806
+[8, 75] loss: 2.598859
+[8, 100] loss: 2.662927
+Epoch: 8 Validation loss: 4.04509 accuracy: 0.98571
+[9, 25] loss: 2.662034
+[9, 50] loss: 2.621462
+[9, 75] loss: 2.634626
+[9, 100] loss: 2.690546
+Epoch: 9 Validation loss: 3.86734 accuracy: 0.99000
+[10, 25] loss: 2.655345
+[10, 50] loss: 2.712318
+[10, 75] loss: 2.731456
+[10, 100] loss: 2.649376
+Epoch: 10 Validation loss: 4.15605 accuracy: 0.97714
+Saving Model in checkpoints/BERT_TGRU_2b_contrast_out_128_0.1_snipscheckpoint_9
+[11, 25] loss: 2.673301
+[11, 50] loss: 2.613831
+[11, 75] loss: 2.690063
+[11, 100] loss: 2.643982
+Epoch: 11 Validation loss: 4.14819 accuracy: 0.98286
+Epoch 00011: reducing learning rate of group 0 to 5.0000e-05.
+[12, 25] loss: 2.615114
+[12, 50] loss: 2.613972
+[12, 75] loss: 2.606732
+[12, 100] loss: 2.694777
+Epoch: 12 Validation loss: 3.94238 accuracy: 0.98714
+[13, 25] loss: 2.621245
+[13, 50] loss: 2.596401
+[13, 75] loss: 2.601223
+[13, 100] loss: 2.604250
+Epoch: 13 Validation loss: 4.08896 accuracy: 0.98571
+[14, 25] loss: 2.591432
+[14, 50] loss: 2.585609
+[14, 75] loss: 2.584701
+[14, 100] loss: 2.595210
+Epoch: 14 Validation loss: 4.18613 accuracy: 0.98714
+[15, 25] loss: 2.578723
+[15, 50] loss: 2.581764
+[15, 75] loss: 2.584200
+[15, 100] loss: 2.577352
+Epoch: 15 Validation loss: 4.30281 accuracy: 0.98714
+Early Stopping the training
+Finished Training
+Saving Model in checkpoints/BERT_TGRU_2b_contrast_out_128_0.1_snipsfinal
+Val loss = 4.3028059005737305 	 Val accuracy = 0.9871428608894348
+Test loss = 3.260444402694702 	 Test accuracy = 0.9814285635948181
+Using model from checkpoints/BERT_TGRU_2b_contrast_out_128_0.1_snipscheckpoint_best.pt
+Val loss = 3.766386032104492     Val accuracy = 0.991428554058075
+Test loss = 3.025009870529175    Test accuracy = 0.9742857217788696

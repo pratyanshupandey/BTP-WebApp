@@ -1,0 +1,28 @@
+Using device:  cuda
+Using 8 CPU cores
+Training new model  <class 'model.TorchGRUIntent'>
+Started Training of BERT_ft_contrast_out_128_0.1
+Epoch: 1 Validation loss: 6.43147 accuracy: 0.25578 accuracy_scn: 0.00000
+Saving Model in checkpoints/BERT_ft_contrast_out_128_0.1checkpoint_best
+Epoch: 2 Validation loss: 5.96582 accuracy: 0.47516 accuracy_scn: 0.00000
+Saving Model in checkpoints/BERT_ft_contrast_out_128_0.1checkpoint_best
+Epoch: 3 Validation loss: 5.59390 accuracy: 0.64388 accuracy_scn: 0.00000
+Saving Model in checkpoints/BERT_ft_contrast_out_128_0.1checkpoint_best
+Epoch: 4 Validation loss: 5.50898 accuracy: 0.71815 accuracy_scn: 0.00000
+Saving Model in checkpoints/BERT_ft_contrast_out_128_0.1checkpoint_best
+Epoch: 5 Validation loss: 5.59337 accuracy: 0.77275 accuracy_scn: 0.00000
+Epoch: 6 Validation loss: 5.70062 accuracy: 0.78947 accuracy_scn: 0.00000
+Epoch: 7 Validation loss: 6.31682 accuracy: 0.83965 accuracy_scn: 0.00000
+Epoch: 8 Validation loss: 6.27799 accuracy: 0.84850 accuracy_scn: 0.00000
+Epoch: 9 Validation loss: 6.34949 accuracy: 0.84456 accuracy_scn: 0.00000
+Epoch 00009: reducing learning rate of group 0 to 5.0000e-05.
+Epoch: 10 Validation loss: 6.76378 accuracy: 0.85932 accuracy_scn: 0.00000
+Saving Model in checkpoints/BERT_ft_contrast_out_128_0.1checkpoint_9
+Epoch: 11 Validation loss: 7.21256 accuracy: 0.87605 accuracy_scn: 0.00000
+Epoch: 12 Validation loss: 7.31234 accuracy: 0.87162 accuracy_scn: 0.00000
+Epoch: 13 Validation loss: 8.40575 accuracy: 0.87506 accuracy_scn: 0.00000
+Early Stopping the training
+Finished Training
+Saving Model in checkpoints/BERT_ft_contrast_out_128_0.1final
+Val loss = 8.405754089355469 	 Val accuracy = 0.8750614523887634 accuracy_scn = 0
+Test loss = 8.044095993041992 	 Test accuracy = 0.8789508938789368 accuracy_scn = 0

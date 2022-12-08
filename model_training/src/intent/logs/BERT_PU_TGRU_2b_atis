@@ -1,0 +1,46 @@
+Using device:  cuda
+Using 20 CPU cores
+Training new model  <class 'model.TorchGRUIntent'>
+Started Training of BERT_PU_TGRU_2b_atis
+[1, 100] loss: 0.088075
+Epoch: 1 Validation loss: 0.04363 accuracy: 0.84692
+Saving Model in checkpoints/BERT_PU_TGRU_2b_atischeckpoint_best
+[2, 100] loss: 0.027646
+Epoch: 2 Validation loss: 0.02419 accuracy: 0.92445
+Saving Model in checkpoints/BERT_PU_TGRU_2b_atischeckpoint_best
+[3, 100] loss: 0.015902
+Epoch: 3 Validation loss: 0.01529 accuracy: 0.95229
+Saving Model in checkpoints/BERT_PU_TGRU_2b_atischeckpoint_best
+[4, 100] loss: 0.008970
+Epoch: 4 Validation loss: 0.01193 accuracy: 0.96620
+Saving Model in checkpoints/BERT_PU_TGRU_2b_atischeckpoint_best
+[5, 100] loss: 0.006580
+Epoch: 5 Validation loss: 0.01361 accuracy: 0.96421
+[6, 100] loss: 0.004693
+Epoch: 6 Validation loss: 0.00811 accuracy: 0.97416
+Saving Model in checkpoints/BERT_PU_TGRU_2b_atischeckpoint_best
+[7, 100] loss: 0.003533
+Epoch: 7 Validation loss: 0.01057 accuracy: 0.97416
+[8, 100] loss: 0.002614
+Epoch: 8 Validation loss: 0.00905 accuracy: 0.97416
+[9, 100] loss: 0.002256
+Epoch: 9 Validation loss: 0.01181 accuracy: 0.97018
+[10, 100] loss: 0.002384
+Epoch: 10 Validation loss: 0.01015 accuracy: 0.97217
+Saving Model in checkpoints/BERT_PU_TGRU_2b_atischeckpoint_9
+[11, 100] loss: 0.001426
+Epoch: 11 Validation loss: 0.00922 accuracy: 0.97813
+Epoch 00011: reducing learning rate of group 0 to 5.0000e-04.
+[12, 100] loss: 0.001149
+Epoch: 12 Validation loss: 0.00975 accuracy: 0.97614
+[13, 100] loss: 0.001064
+Epoch: 13 Validation loss: 0.00918 accuracy: 0.97614
+[14, 100] loss: 0.001167
+Epoch: 14 Validation loss: 0.00958 accuracy: 0.97614
+[15, 100] loss: 0.000619
+Epoch: 15 Validation loss: 0.00912 accuracy: 0.97813
+Early Stopping the training
+Finished Training
+Saving Model in checkpoints/BERT_PU_TGRU_2b_atisfinal
+Val loss = 0.00911717489361763 	 Val accuracy = tensor([0.9781], device='cuda:0')
+Test loss = 0.010950887575745583 	 Test accuracy = tensor([0.9746], device='cuda:0')
