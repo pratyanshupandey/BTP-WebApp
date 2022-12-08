@@ -1,5 +1,45 @@
 # BTP-WebApp
 
+The web app is deployed at https://asr.iiit.ac.in/Intent_Detection_App/
+
+<br />
+
+The server is deployed using nginx. It is registered as a service by the name of intent_detection. This allows the server to restart itself in case of failure or when the system reboots. Thus it now works as any other service and can be interacted with using systemctl.
+
+<br />
+
+## Managing the existing service for the server
+
+To check the status of the running server
+```
+systemctl status intent_detection.service
+```
+
+To disable the server from starting automatically on startup of VM
+```
+systemctl disable intent_detection.service
+```
+
+To enable the server to start automatically on startup of VM
+ON by default
+```
+systemctl enable intent_detection.service
+```
+
+to manually start the server
+```
+systemctl start intent_detection.service
+```
+
+to manually stop the server
+```
+systemctl stop intent_detection.service
+```
+<br />
+<br />
+
+# Running the code locally
+
 ## Running the frontend
 1. Run
 ```
@@ -22,23 +62,9 @@ npx serve -g build
 
 ## Instructions to run the backend
 
-1. Install docker from [here](https://docs.docker.com/engine/install/).
-2. Install docker-compose.
-3. Navigate to the backend directory and run
+1. Create the environment according to the provided environment.yml file. Install OpenAI Whisper.
+2. Navigate to the directory and place pretrained models for whisper and intent detection into the corresponding folders.
+3. Run the following commands to start the server.
 ```
-mkdir asr_models
-mkdir audio_files
-```
-4. Download deepspeech pretrained model and scorer and place them in asr_models. 
-<br>
-Model: https://github.com/mozilla/DeepSpeech/releases/download/v0.9.3/deepspeech-0.9.3-models.pbmm
-<br>
-Scorer: https://github.com/mozilla/DeepSpeech/releases/download/v0.9.3/deepspeech-0.9.3-models.scorer
-
-
-5. Run the following commands to start the server.
-```
-docker-compose -f docker-compose.yaml up
-conda env create -f environment.yml
-uvicorn main:app --reload
+uvicorn main:app
 ```
