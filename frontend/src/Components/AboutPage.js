@@ -87,7 +87,7 @@ const AboutPage = () => {
         {/* <Grid item xs={1} sm={1} md={1} lg={1} xl={1}></Grid> */}
         
         {contributors.map((ele) =>
-          <Grid item xs={12} sm={12} md={6} lg={2.4} xl={2.4} sx={{ alignContent: 'center', justifyContent: 'center' }}>
+          <Grid key={ele.name} item xs={12} sm={12} md={6} lg={2.4} xl={2.4} sx={{ alignContent: 'center', justifyContent: 'center' }}>
             <Card sx={{ maxWidth: 200 , marginLeft: 5, marginRight: 5}}>
               <CardContent>
                 <Stack>

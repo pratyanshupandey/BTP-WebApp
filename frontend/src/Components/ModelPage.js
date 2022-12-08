@@ -2,26 +2,22 @@ import { useState } from "react";
 import Box from '@mui/material/Box';
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
-import FormHelperText from '@mui/material/FormHelperText';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 import FlightImage from "../assets/flight3.jpeg"
+import AssistantImage from "../assets/assistant.jpg"
 import WebSpeechASR from "./WebSpeechASR";
-import Deepspeech3 from "./Deepspeech3";
+import OpenAIWhisper from "./OpenAIWhisper";
 import Button from '@mui/material/Button';
 import Grid from '@mui/material/Grid';
 import axios from "axios";
-import { Input, Typography } from "@mui/material";
 import TextField from '@mui/material/TextField';
 import { Paper } from "@mui/material";
 import Carousel from 'react-material-ui-carousel'
-import Slide from "@mui/material/Slide";
 import Fab from '@mui/material/Fab';
 import HelpIcon from '@mui/icons-material/Help';
 import Dialog from '@mui/material/Dialog';
 import { Image } from "mui-image";
-import { Card } from "@mui/material";
-import { Backdrop } from "@mui/material";
 import LayoutHelpImg from "../assets/layout_help.png"
 import WebspeechHelpImg from "../assets/webspeech_help.png"
 import DeepspeechHelpImg from "../assets/deepspeech_help.png"
@@ -56,7 +52,7 @@ const ModelPage = () => {
         e.preventDefault()
         console.log("query submitted")
         console.log(queryText)
-        axios.post('http://localhost:8000/detect_intent',
+        axios.post('https://asr.iiit.ac.in/intent_detection/detect_intent/?domain=' + domain,
             {
                 "query_text": queryText
             })
@@ -70,9 +66,11 @@ const ModelPage = () => {
     }
 
 
-    const domains = ["Flight"]
+    const domains = ["Assistant_amazon", "Flight_atis", "Assistant_snips"]
     const background_images = {
-        Flight: FlightImage
+        Assistant_amazon: AssistantImage,
+        Flight_atis: FlightImage,
+        Assistant_snips: AssistantImage,
     }
 
     const [domain, setDomain] = useState(domains[0]);
@@ -176,16 +174,16 @@ const ModelPage = () => {
                                 </FormControl>
                             </Grid>
                             <Grid item xs={6} sm={6} md={4} lg={4} xl={4} sx={{ display: "flex", alignItems: 'center' }}>
-                                Currently using {!useWebSpeech ? "Deepspeech" : "WebSpeech"}
+                                Currently using {!useWebSpeech ? "OpenAI Whisper" : "WebSpeech"}
 
                             </Grid>
 
                             <Grid item xs={6} sm={6} md={4} lg={4} xl={4} sx={{ display: "flex", alignItems: 'center', justifyContent: 'right' }}>
-                                <Button variant="contained" onClick={(e) => setUseWebSpeech(!useWebSpeech)}>{useWebSpeech ? "Use Deepspeech" : "Use WebSpeech"}</Button>
+                                <Button variant="contained" onClick={(e) => setUseWebSpeech(!useWebSpeech)}>{useWebSpeech ? "Use OpenAI Whisper" : "Use WebSpeech"}</Button>
                             </Grid>
 
-                            {useWebSpeech ? <WebSpeechASR setQueryText={setQueryText} setQueryResponse={setQueryResponse} />
-                                : <Deepspeech3 setQueryText={setQueryText} setQueryResponse={setQueryResponse} />}
+                            {useWebSpeech ? <WebSpeechASR setQueryText={setQueryText} setQueryResponse={setQueryResponse} domain={domain} />
+                                : <OpenAIWhisper setQueryText={setQueryText} setQueryResponse={setQueryResponse} domain={domain} />}
 
                             <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
 

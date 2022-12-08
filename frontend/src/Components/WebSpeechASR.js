@@ -3,7 +3,7 @@ import Grid from '@mui/material/Grid';
 import KeyboardVoiceIcon from '@mui/icons-material/KeyboardVoice';
 import IconButton from '@mui/material/IconButton';
 
-const WebSpeechASR = ({ setQueryText, setQueryResponse }) => {
+const WebSpeechASR = ({ setQueryText, setQueryResponse, domain }) => {
     let SpeechRecognition = window.webkitSpeechRecognition || window.SpeechRecognition
     let asr = new SpeechRecognition()
     asr.lang = 'en-IN'
@@ -18,7 +18,7 @@ const WebSpeechASR = ({ setQueryText, setQueryResponse }) => {
             let transcript = event.results[0][0].transcript
             setQueryText(transcript)
             console.log(transcript)
-            axios.post('http://localhost:8000/detect_intent',
+            axios.post('https://asr.iiit.ac.in/intent_detection/detect_intent/?domain=' + domain,
                 {
                     "query_text": transcript
                 })

@@ -5,9 +5,8 @@ import { Grid } from '@mui/material';
 import KeyboardVoiceIcon from '@mui/icons-material/KeyboardVoice';
 import StopCircleOutlinedIcon from '@mui/icons-material/StopCircleOutlined';
 import { Button } from '@mui/material';
-import { Box } from '@mui/system';
 
-const Deepspeech3 = ({ setQueryText, setQueryResponse }) => {
+const OpenAIWhisper = ({ setQueryText, setQueryResponse, domain }) => {
 
     const [recorder, setRecorder] = useState("")
 
@@ -20,16 +19,7 @@ const Deepspeech3 = ({ setQueryText, setQueryResponse }) => {
 
         function onMediaSuccess(stream) {
             var mediaRecorder = new MediaStreamRecorder(stream);
-            // mediaRecorder.recorderType = StereoAudioRecorder;
             mediaRecorder.mimeType = 'audio/wav'; // check this line for audio/wav
-            // mediaRecorder.ondataavailable = function (blob) {
-            //     // POST/PUT "Blob" using FormData/XHR2
-            //     // var blobURL = URL.createObjectURL(blob);
-            //     // document.write('<a href="' + blobURL + '">' + blobURL + '</a>');
-            //     console.log("Saving")
-            //     invokeSaveAsDialog(blob)
-            //     var file = new File([blob], "recording.wavrea")
-            // };
             mediaRecorder.ondataavailable = function (typedArray) {
                 let dataBlob = new Blob([typedArray], { type: 'audio/wav' });
                 let file = new File([dataBlob], "recording.wav")
@@ -37,7 +27,7 @@ const Deepspeech3 = ({ setQueryText, setQueryResponse }) => {
                 formData.append('audio_file', file)
                 axios({
                     method: "post",
-                    url: "http://localhost:8000/audio_upload",
+                    url: "https://asr.iiit.ac.in/intent_detection/audio_upload/?domain=" + domain,
                     data: formData,
                     headers: {
                         "content-type": `multipart/form-data;`
@@ -93,4 +83,4 @@ const Deepspeech3 = ({ setQueryText, setQueryResponse }) => {
     )
 }
 
-export default Deepspeech3
+export default OpenAIWhisper

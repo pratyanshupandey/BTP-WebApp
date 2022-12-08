@@ -66,21 +66,21 @@ const Navbar = () => {
                 display: { xs: 'block', md: 'none' },
               }}
             >
-              <Link to="/">
+              <Link to="/Intent_Detection_App/">
                 <MenuItem key="home" onClick={handleCloseNavMenu}>
                   <Typography textAlign="center">
                     Home
                   </Typography>
                 </MenuItem>
               </Link>
-              <Link to="/model" >
+              <Link to="/Intent_Detection_App/model" >
                 <MenuItem key="model" onClick={handleCloseNavMenu}>
                   <Typography textAlign="center">
                     Detect Intent
                   </Typography>
                 </MenuItem>
               </Link>
-              <Link to="/about" >
+              <Link to="/Intent_Detection_App/about" >
                 <MenuItem key="about" onClick={handleCloseNavMenu}>
                   <Typography textAlign="center">
                     About Us
@@ -101,7 +101,7 @@ const Navbar = () => {
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-            <Link to="/">
+            <Link to="/Intent_Detection_App/">
               <Button
                 key="home"
                 onClick={handleCloseNavMenu}
@@ -109,7 +109,7 @@ const Navbar = () => {
               >Home
               </Button>
             </Link>
-            <Link to="/model" >
+            <Link to="/Intent_Detection_App/model" >
               <Button
                 key="model"
                 onClick={handleCloseNavMenu}
@@ -117,7 +117,7 @@ const Navbar = () => {
               >Detect Intent
               </Button>
             </Link>
-            <Link to="/about" >
+            <Link to="/Intent_Detection_App/about" >
               <Button
                 key="about"
                 onClick={handleCloseNavMenu}

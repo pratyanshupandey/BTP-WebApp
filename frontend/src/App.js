@@ -44,9 +44,9 @@ function App() {
         <div className="App">
           <Navbar />
           <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/about" element={<AboutPage />} />
-            <Route path="/model" element={<ModelPage />} />
+            <Route path="/Intent_Detection_App/" element={<HomePage />} />
+            <Route path="/Intent_Detection_App/about" element={<AboutPage />} />
+            <Route path="/Intent_Detection_App/model" element={<ModelPage />} />
           </Routes>
         </div>
       </ThemeProvider>
