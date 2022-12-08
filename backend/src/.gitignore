@@ -156,4 +156,4 @@ audio_files/
 asr_models/
 logs/
 models/
-
+whisper/
